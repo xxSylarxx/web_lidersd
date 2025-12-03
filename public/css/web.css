@@ -1,0 +1,166 @@
+
+:root {
+  --color1: #1e40af;
+  --color2: #1e3a8a;
+  --color3: #3b82f6;
+  --color4: #60a5fa;
+  --color5: #0f172a;
+  --color6: #1e293b;
+  --color7: #475569;
+  --color8: #cbd5e1;
+  --color9: #f8fafc;
+  --color10: #ffffff;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Inter", system-ui, -apple-system, sans-serif;
+  color: var(--color5);
+  background: var(--color9);
+  line-height: 1.6;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Playfair Display", serif;
+  font-weight: 700;
+  line-height: 1.2;
+  color: var(--color5);
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin: 0 0 1rem;
+}
+
+h2 {
+  font-size: 2rem;
+  margin: 0 0 1.5rem;
+  position: relative;
+  padding-bottom: 0.5rem;
+}
+
+h2::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 60px;
+  height: 3px;
+  background: linear-gradient(90deg, var(--color1), var(--color4));
+}
+
+h3 {
+  font-size: 1.4rem;
+  margin: 0 0 0.75rem;
+}
+
+a {
+  color: var(--color1);
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+a:hover {
+  color: var(--color3);
+}
+
+header {
+  background: var(--color10);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+.header-inner {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: .4rem 1.1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  font-family: "Playfair Display", serif;
+  font-weight: 800;
+  font-size: 1.4rem;
+  color: var(--color1);
+  letter-spacing: -0.5px;
+}
+
+.brand span {
+  color: var(--color5);
+}
+
+.site-logo {
+  width: 48px;
+  height: auto;
+  border-radius: 8px;
+  flex-shrink: 0;
+}
+
+.brand-text {
+  display: inline-block;
+}
+.cta {
+  display: inline-block;
+  background: linear-gradient(135deg, var(--color1), var(--color2));
+  color: white;
+  padding: 0.7rem 1.5rem;
+  border-radius: 8px;
+  font-weight: 600;
+  box-shadow: 0 4px 12px rgba(30, 64, 175, 0.3);
+  transition: all 0.3s;
+  border: none;
+  cursor: pointer;
+}
+
+.cta:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(30, 64, 175, 0.4);
+}
+
+.cta-outline {
+  background: transparent;
+  color: var(--color1);
+  border: 2px solid var(--color1);
+  box-shadow: none;
+}
+
+.cta-outline:hover {
+  background: var(--color1);
+  color: white;
+}
+
+header .nav-link {
+    font-weight: 500;
+    font-size: .95rem;
+    color: var(--color6);
+    position: relative;
+    border-bottom: 2px solid transparent;
+    transition: border-color 0.3s ease;
+    padding-bottom: 4px;
+}
+
+header .navbar .nav-item{
+  margin: 7px 5px; 
+  display: flex;
+  align-items: center;
+}
+
+/* Efecto de subrayado con border-bottom para no conflictuar con la flecha ::after */
+header .nav-link:hover {
+    border-bottom-color: var(--color1);
+}
+
