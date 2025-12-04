@@ -41,6 +41,11 @@
     <!-- Custom CSS -->
     <link rel="stylesheet" href="./public/css/web.css">
 
+    <!-- Font Awesome CSS -->
+    <link rel="stylesheet" href="./libs/font-awesone/css/all.min.css">
+    <link rel="stylesheet" href="./libs/font-awesone/css/brands.min.css">
+    <link rel="stylesheet" href="./libs/font-awesone/css/solid.min.css">
+
     <!-- JSON-LD: EducationalOrganization + WebSite + Breadcrumb -->
     <script type="application/ld+json">
         {
@@ -259,6 +264,18 @@
     </main>
 
     <?php include './partials/footer.php'; ?>
+
+    <!-- Font Awesome Configuration: Disable SVG auto-replacement -->
+    <script>
+        window.FontAwesomeConfig = {
+            autoReplaceSvg: false
+        };
+    </script>
+
+    <!-- Font Awesome JS -->
+    <script src="./libs/font-awesone/js/all.min.js"></script>
+    <script src="./libs/font-awesone/js/brands.min.js"></script>
+    <script src="./libs/font-awesone/js/solid.min.js"></script>
 
 </body>
 
