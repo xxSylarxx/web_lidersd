@@ -59,7 +59,7 @@
                     
 
                     
-                    <div class="mininav-item my-2"><a href="https://api.whatsapp.com/send?phone=51" target="_blank"> <i class="fab fa-whatsapp"></i> <span class="ms-2">999999</span> </a></div>
+                    <div class="mininav-item my-2"><a href="https://api.whatsapp.com/send?phone=51" target="_blank"> <i class="fab fa-whatsapp"></i> <span class="ms-2">951 352 404</span> </a></div>
                    
                     
                     

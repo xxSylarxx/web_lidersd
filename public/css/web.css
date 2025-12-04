@@ -1,4 +1,3 @@
-
 :root {
   --color1: #1e40af;
   --color2: #1e3a8a;
@@ -79,14 +78,14 @@ header {
   z-index: 100;
 }
 .header-inner {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: .4rem 1.1rem;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap;
-    gap: 1rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0.4rem 1.1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1rem;
 }
 .brand {
   display: flex;
@@ -144,23 +143,39 @@ header {
 }
 
 header .nav-link {
-    font-weight: 500;
-    font-size: .95rem;
-    color: var(--color6);
-    position: relative;
-    border-bottom: 2px solid transparent;
-    transition: border-color 0.3s ease;
-    padding-bottom: 4px;
+  font-weight: 500;
+  font-size: 0.95rem;
+  color: var(--color6);
+  position: relative;
+  border-bottom: 2px solid transparent;
+  transition: border-color 0.3s ease;
+  padding-bottom: 4px;
 }
 
-header .navbar .nav-item{
-  margin: 7px 5px; 
+header .navbar .nav-item {
+  margin: 7px 5px;
   display: flex;
   align-items: center;
 }
 
 /* Efecto de subrayado con border-bottom para no conflictuar con la flecha ::after */
 header .nav-link:hover {
-    border-bottom-color: var(--color1);
+  border-bottom-color: var(--color1);
 }
 
+/* Estilos del footer */
+footer {
+  background: var(--color5);
+  color: var(--color6);
+  padding: 3rem 0 2rem;
+  margin-top: 4rem;
+}
+footer a,p {
+  color: var(--color8);
+}
+footer a:hover {
+  color: white;
+}
+footer strong {
+  color: white;
+}

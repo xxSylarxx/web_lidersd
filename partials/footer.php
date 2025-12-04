@@ -23,12 +23,12 @@
             <div>
                 <strong>Contacto</strong>
                 <div style="margin-top:1rem;line-height:1.8">
-                    <div>📍 Mz. N lote 4 Urbanización Los Ficus de Carabayllo, 5ta Etapa carabayllo</div>
+                    <div style="color:var(--color8);">📍 Mz. N lote 4 Urbanización Los Ficus de Carabayllo, 5ta Etapa carabayllo</div>
                 </div>
             </div>
         </div>
         <div style="border-top:1px solid rgba(255,255,255,0.1);padding-top:1.5rem;margin-top:1rem;display:flex;justify-content:space-between;flex-wrap:wrap;gap:1rem;font-size:.9rem">
-            <div>© 2025 Colegio Santo Domingo El Líder. Todos los derechos reservados.</div>
+            <div style="color:var(--color8);">© 2025 Colegio Santo Domingo El Líder. Todos los derechos reservados.</div>
             <div style="display:flex;gap:1.5rem">
                 <a href="/sitemap.xml">Sitemap</a>
                 <a href="/rss.xml">RSS</a>
