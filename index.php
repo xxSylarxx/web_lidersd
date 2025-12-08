@@ -19,13 +19,13 @@
     <meta property="og:description" content="Educación integral y personalizada en Carabayllo, Lima. Académicos, arte, deportes y formación humana. Conoce nuestros programas y admisiones.">
     <meta property="og:url" content="https://lidersd.edu.pe/">
     <meta property="og:site_name" content="Colegio Santo Domingo El Líder">
-    <meta property="og:image" content="https://lidersd.edu.pe/assets/og-image.jpg">
+    <meta property="og:image" content="https://lidersd.edu.pe/publicimg/icons/escudo.png">
 
     <!-- Twitter -->
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Colegio Santo Domingo El Líder — Educación de Excelencia">
     <meta name="twitter:description" content="Programas académicos, cultura, deporte y admisiones. Educación que forma líderes del mañana.">
-    <meta property="twitter:image" content="https://lidersd.edu.pe/assets/og-image.jpg">
+    <meta property="twitter:image" content="https://lidersd.edu.pe/public/img/icons/escudo.png">
 
     <!-- Icons -->
     <link rel="icon" href="./public/img/icons/escudo.png">
@@ -417,6 +417,7 @@
 
         <section class="publicaciones-section">
             <div class="container">
+
                 <div class="row pt-5">
                     <div class="col-lg-12">
                         <div class="d-flex justify-content-center">
@@ -427,7 +428,8 @@
                 </div>
                 <style>
                     .card-galeria {
-                        background-color: rgba(0, 0, 0, 0.03);
+                        /* background-color: rgba(0, 0, 0, 0.03); */
+                        background-color: white;
                         border-radius: 5px;
                         box-shadow: 0 0 30px rgba(0, 0, 0, 0.18);
                     }
@@ -495,7 +497,9 @@
                         transform: translateY(-5px);
                     }
                 </style>
-                <div class="row cards d-flex justify-content-center align-items-center">
+                <div class="row cards d-flex justify-content-center align-items-center" style="position:relative;">
+                    <div class="decoration-circle decoration-1"></div>
+                            <div class="decoration-circle decoration-2"></div>
                     <div class="col-lg-4 pt-5">
                         <div class="card-galeria card3">
                             <div class="container-galeria">
@@ -559,8 +563,6 @@
                             </div>
                         </div>
                     </div>
-                    
-                    
                 </div>
             </div>
         </section>

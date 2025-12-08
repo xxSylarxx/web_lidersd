@@ -27,7 +27,7 @@
     }
 </style>
 <header>
-    <!-- <div class="barsup">
+    <div class="barsup">
         <div class="container">
             <div class="row justify-content-between">
 
@@ -40,13 +40,13 @@
                 </div>
                 <div class="col-6 d-flex justify-content-end align-items-center mininav">
                     <div class="mininav-item my-2"><a href="mailto:" target="_blank"> <i class="far fa-envelope"></i> <span class="ms-2">administracion@lidersd.edu.pe</span> </a></div>
-                    <div class="mininav-item my-2"><a href="https://api.whatsapp.com/send?phone=51" target="_blank"> <i class="fab fa-whatsapp"></i> <span class="ms-2">951 352 404</span> </a></div>
-                    <div class="mininav-item my-2"><a href="https://lidersd.cubicol.pe/principal/login" target="_blank"> <i class="fas fa-globe"></i> <span class="ms-2">Intranet</span> </a></div>
+                    <div class="mininav-item my-2"><a href="https://wa.me/+51951353802" target="_blank"> <i class="fab fa-whatsapp"></i> <span class="ms-2">951 352 404</span> </a></div>
+                    <div class="mininav-item my-2"><a href="https://lidersd.cubicol.pe/principal/login" target="_blank"> <img src="./public/img/icons/cubo2.png" alt="logo-cubicol" width="20"> <span class="ms-2">Intranet</span> </a></div>
                 </div>
 
             </div>
         </div>
-    </div> -->
+    </div>
     <nav class="navbar navbar-expand-lg" aria-label="Navegación principal">
         <div class="container-fluid header-inner">
             <a class="navbar-brand brand" href="#">
