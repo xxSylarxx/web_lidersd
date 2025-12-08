@@ -40,11 +40,13 @@
     <link rel="stylesheet" href="./public/css/bootstrap.min.css">
     <!-- Custom CSS -->
     <link rel="stylesheet" href="./public/css/web.css">
+    <link rel="stylesheet" href="./public/css/networks.css">
 
     <!-- Font Awesome CSS -->
     <link rel="stylesheet" href="./libs/font-awesone/css/all.min.css">
     <link rel="stylesheet" href="./libs/font-awesone/css/brands.min.css">
     <link rel="stylesheet" href="./libs/font-awesone/css/solid.min.css">
+
 
     <style>
         /* Estilos personalizados para controles del carousel */
@@ -227,6 +229,7 @@
 <body>
 
     <?php include './partials/header.php'; ?>
+    <?php include './partials/redes.php'; ?>
 
     <div class="container-fluid content-banner px-0">
         <div id="carouselExampleIndicators" class="carousel slide carousel-fade" data-bs-ride="carousel">
@@ -301,7 +304,7 @@
                         <!-- Botón de acción -->
                         <a href="/bienvenidos" class="cta cta-welcome">
                             <span>Conoce Más Sobre Nosotros</span>
-                            <i class="fas fa-arrow-right"></i>
+                            <i class="fa fa-arrow-circle-right" aria-hidden="true"></i>
                         </a>
                     </div> <!-- Columna de Imagen -->
                     <div class="col-lg-6 order-1 order-lg-2">
@@ -349,8 +352,7 @@
                                 <div class="bg-fade">
                                     <br><br><br>
                                     <span>
-                                        Contamos con profesoras tituladas y especializadas en educación inicial, asimismo de
-                                        auxiliares en constante capacitación.
+                                        Disponemos de profesoras tituladas y especialistas en educación inicial, además de auxiliares que se encuentran en permanente proceso de capacitación.
                                     </span><br><br>
                                     <a class="btn btn-warning text-white">
                                         Ver más &nbsp;<i class="fa fa-arrow-circle-right" aria-hidden="true"></i>
@@ -371,8 +373,7 @@
                                 <div class="bg-fade">
                                     <br><br><br>
                                     <span>
-                                        Contamos con profesores y auxiliares especializados en educación primaria. Sistema
-                                        tutorial para el desarrollo de valores.
+                                        Contamos con docentes y auxiliares especializados en educación primaria, además de un sistema tutorial orientado al fortalecimiento de los valores.
                                     </span><br><br>
                                     <a class="btn btn-warning text-white">
                                         Ver más &nbsp;<i class="fa fa-arrow-circle-right" aria-hidden="true"></i>
@@ -432,12 +433,16 @@
                     }
 
                     .container-galeria {
+                        height: 300px;
                         position: relative;
                         clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
                     }
 
                     #portada-galeria {
                         width: 100%;
+                        height: 100%;
+                        object-fit: cover;
+                        object-position: top;
                         display: block;
                         border-radius: 5px 5px 0 0;
                     }
@@ -452,18 +457,6 @@
                         border-radius: 5px 5px 0 0;
                         opacity: 0.7;
                     }
-
-                    /* .card1>.container-galeria:after {
-                        background-image: linear-gradient(135deg, var(--color1), var(--color1));
-                    }
-
-                    .card2>.container-galeria:after {
-                         background-image: linear-gradient(135deg, var(--color1), var(--color1));
-                    }
-
-                    .card3>.container-galeria:after {
-                        background-image: linear-gradient(135deg, var(--color1), var(--color1));
-                    } */
 
                     .details {
                         padding: 20px 10px;
@@ -485,7 +478,8 @@
                     }
 
                     /* Otros estilos de botones */
-                    .btn {
+                    .btn-pub {
+                        width: 110px;
                         background-color: var(--color1);
                         color: white;
                         border: none;
@@ -495,7 +489,7 @@
                         transition: .3s;
                     }
 
-                    .btn:hover {
+                    .btn-pub:hover {
                         color: white;
                         background-color: var(--color1);
                         transform: translateY(-5px);
@@ -503,38 +497,21 @@
                 </style>
                 <div class="row cards d-flex justify-content-center align-items-center">
                     <div class="col-lg-4 pt-5">
-                        <div class=" card-galeria card1">
+                        <div class="card-galeria card3">
                             <div class="container-galeria">
-                                <img id="portada-galeria" src="./public/img/web/desf2.jpg" alt="galeria">
+                                <img id="portada-galeria" src="./public/img/galeria/visitas_guiadas.jpg" alt="galeria">
                             </div>
                             <div class="details">
                                 <div class="row d-flex">
-                                    <div class="col-lg-5">
-                                        <h3>Pastoral 1</h3>
-                                        <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dignissimos, minus aperiam adipisci exercitationem.</p> -->
-                                        <a class="btn" href="#">Ver Más</a>
+                                    <div class="col-lg-8">
+                                        <div class="mx-3" style="display:flex;justify-content:center;flex-direction:column;">
+                                            <h3>Visitas Guiadas</h3>
+                                            <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dignissimos, minus aperiam adipisci exercitationem.</p> -->
+                                            <a class="btn-pub" href="#">Ver Más</a>
+                                        </div>
                                     </div>
-                                    <div class="col-lg-6 d-flex justify-content-end align-items-center">
-                                        <img src="./public/img/icons/escudo.png" width="35%" alt="">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 pt-5">
-                        <div class="card-galeria card2">
-                            <div class="container-galeria">
-                                <img id="portada-galeria" src="./public/img/web/desf2.jpg" alt="galeria">
-                            </div>
-                            <div class="details">
-                                <div class="row d-flex">
-                                    <div class="col-lg-5">
-                                        <h3>Pastoral 2</h3>
-                                        <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dignissimos, minus aperiam adipisci exercitationem.</p> -->
-                                        <a class="btn" href="#">Ver Más</a>
-                                    </div>
-                                    <div class="col-lg-6 d-flex justify-content-end align-items-center">
-                                        <img src="./public/img/icons/escudo.png" width="35%" alt="">
+                                    <div class="col-lg-4 d-flex justify-content-end align-items-start">
+                                        <img class="d-block mx-4" src="./public/img/icons/escudo.png" width="60%" alt="">
                                     </div>
                                 </div>
                             </div>
@@ -543,22 +520,47 @@
                     <div class="col-lg-4 pt-5">
                         <div class="card-galeria card3">
                             <div class="container-galeria">
-                                <img id="portada-galeria" src="./public/img/web/desf2.jpg" alt="galeria">
+                                <img id="portada-galeria" src="./public/img/galeria/fachada.jpeg" alt="galeria">
                             </div>
                             <div class="details">
                                 <div class="row d-flex">
-                                    <div class="col-lg-5">
-                                        <h3>Pastoral 3</h3>
-                                        <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dignissimos, minus aperiam adipisci exercitationem.</p> -->
-                                        <a class="btn" href="#">Ver Más</a>
+                                    <div class="col-lg-8">
+                                        <div class="mx-3" style="display:flex;justify-content:center;flex-direction:column;">
+                                            <h3>Matrícula 2026</h3>
+                                            <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dignissimos, minus aperiam adipisci exercitationem.</p> -->
+                                            <a class="btn-pub" href="#">Ver Más</a>
+                                        </div>
                                     </div>
-                                    <div class="col-lg-6 d-flex justify-content-end align-items-center">
-                                        <img src="./public/img/icons/escudo.png" width="35%" alt="">
+                                    <div class="col-lg-4 d-flex justify-content-end align-items-start">
+                                        <img class="d-block mx-4" src="./public/img/icons/escudo.png" width="60%" alt="">
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
+                    <div class="col-lg-4 pt-5">
+                        <div class="card-galeria card3">
+                            <div class="container-galeria">
+                                <img id="portada-galeria" src="./public/img/galeria/p-boletin.jpg" alt="galeria">
+                            </div>
+                            <div class="details">
+                                <div class="row d-flex">
+                                    <div class="col-lg-8">
+                                        <div class="mx-3" style="display:flex;justify-content:center;flex-direction:column;">
+                                            <h3>Boletín Informativo</h3>
+                                            <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dignissimos, minus aperiam adipisci exercitationem.</p> -->
+                                            <a class="btn-pub" href="#">Ver Más</a>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 d-flex justify-content-end align-items-start">
+                                        <img class="d-block mx-4" src="./public/img/icons/escudo.png" width="60%" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    
                 </div>
             </div>
         </section>
@@ -574,7 +576,7 @@
                 </div>
                 <div class="row mt-4">
                     <div class="col"><iframe class="shadow-lg" src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3904.7804288506436!2d-77.05496552423405!3d-11.850637488371131!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2s57W44WXX%2BP2X!5e0!3m2!1ses!2spe!4v1765185453906!5m2!1ses!2spe" width="100%" height="500" style="border: 20px solid #fff; border-radius: 5px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                       <!--  <iframe class="shadow-lg" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d487.5100393186484!2d-76.9940203!3d-12.1749352!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105b9cc99ff9ae1%3A0xba239e2482b3a265!2sAv.%20Guardia%20Civil%20Sur%20867%2C%20Chorrillos%2015056!5e0!3m2!1ses-419!2spe!4v1700495464385!5m2!1ses-419!2spe" width="100%" height="500" style="border: 20px solid #fff; border-radius: 5px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> -->
+                        <!--  <iframe class="shadow-lg" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d487.5100393186484!2d-76.9940203!3d-12.1749352!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105b9cc99ff9ae1%3A0xba239e2482b3a265!2sAv.%20Guardia%20Civil%20Sur%20867%2C%20Chorrillos%2015056!5e0!3m2!1ses-419!2spe!4v1700495464385!5m2!1ses-419!2spe" width="100%" height="500" style="border: 20px solid #fff; border-radius: 5px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> -->
                     </div>
                 </div>
             </div>
