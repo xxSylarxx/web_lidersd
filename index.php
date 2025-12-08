@@ -41,6 +41,7 @@
     <!-- Custom CSS -->
     <link rel="stylesheet" href="./public/css/web.css">
     <link rel="stylesheet" href="./public/css/networks.css">
+    <link rel="stylesheet" href="./public/css/modal-contacto.css">
 
     <!-- Font Awesome CSS -->
     <link rel="stylesheet" href="./libs/font-awesone/css/all.min.css">
@@ -352,7 +353,7 @@
                                 <div class="bg-fade">
                                     <br><br><br>
                                     <span>
-                                        Disponemos de profesoras tituladas y especialistas en educación inicial, además de auxiliares que se encuentran en permanente proceso de capacitación.
+                                        Disponemos de docentes tituladas y especialistas en educación inicial, además de auxiliares que se encuentran en permanente proceso de capacitación.
                                     </span><br><br>
                                     <a class="btn btn-warning text-white">
                                         Ver más &nbsp;<i class="fa fa-arrow-circle-right" aria-hidden="true"></i>
@@ -394,7 +395,7 @@
                                 <div class="bg-fade">
                                     <br><br><br>
                                     <span>
-                                        Profesores titulados y espcializados en educación secundaria. Enfoque orientado al
+                                        Docentes titulados y espcializados en educación secundaria. Enfoque orientado al
                                         desarrollo de las inteligencias múltiples.
                                     </span><br><br>
                                     <a class="btn btn-warning text-white">
@@ -426,80 +427,9 @@
                         </div>
                     </div>
                 </div>
-                <style>
-                    .card-galeria {
-                        /* background-color: rgba(0, 0, 0, 0.03); */
-                        background-color: white;
-                        border-radius: 5px;
-                        box-shadow: 0 0 30px rgba(0, 0, 0, 0.18);
-                    }
-
-                    .container-galeria {
-                        height: 300px;
-                        position: relative;
-                        clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
-                    }
-
-                    #portada-galeria {
-                        width: 100%;
-                        height: 100%;
-                        object-fit: cover;
-                        object-position: top;
-                        display: block;
-                        border-radius: 5px 5px 0 0;
-                    }
-
-                    .container-galeria:after {
-                        content: "";
-                        height: 100%;
-                        width: 100%;
-                        position: absolute;
-                        top: 0;
-                        left: 0;
-                        border-radius: 5px 5px 0 0;
-                        opacity: 0.7;
-                    }
-
-                    .details {
-                        padding: 20px 10px;
-                    }
-
-                    .details h3 {
-                        font-family: 'Poppins', sans-serif;
-                        color: var(--color1);
-                        font-weight: 600;
-                        font-size: 18px;
-                        margin: 10px 0 15px 0;
-                    }
-
-                    .details p {
-                        color: #a0a0a0;
-                        font-size: 15px;
-                        line-height: 30px;
-                        font-weight: 400;
-                    }
-
-                    /* Otros estilos de botones */
-                    .btn-pub {
-                        width: 110px;
-                        background-color: var(--color1);
-                        color: white;
-                        border: none;
-                        padding: 10px 20px;
-                        border-radius: 20px;
-                        cursor: pointer;
-                        transition: .3s;
-                    }
-
-                    .btn-pub:hover {
-                        color: white;
-                        background-color: var(--color1);
-                        transform: translateY(-5px);
-                    }
-                </style>
                 <div class="row cards d-flex justify-content-center align-items-center" style="position:relative;">
                     <div class="decoration-circle decoration-1"></div>
-                            <div class="decoration-circle decoration-2"></div>
+                    <div class="decoration-circle decoration-2"></div>
                     <div class="col-lg-4 pt-5">
                         <div class="card-galeria card3">
                             <div class="container-galeria">
@@ -590,8 +520,8 @@
 
     <?php include './partials/footer.php'; ?>
 
-    <!-- Font Awesome Configuration: Disable SVG auto-replacement -->
     <script>
+        //Para que fontaawesone no ponga svg por default y use la etiqueta i por default
         window.FontAwesomeConfig = {
             autoReplaceSvg: false
         };
@@ -601,8 +531,7 @@
     <script src="./libs/font-awesone/js/all.min.js"></script>
     <script src="./libs/font-awesone/js/brands.min.js"></script>
     <script src="./libs/font-awesone/js/solid.min.js"></script>
-    <!-- <script src="./public/js/bootstrap.min.js"></script>
-    <script src="./public/js/popper.min.js"></script> -->
+    <script src="./public/js/bootstrap.bundle.min.js"></script>
 
 </body>
 

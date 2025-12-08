@@ -49,7 +49,7 @@
     </div>
     <nav class="navbar navbar-expand-lg" aria-label="Navegación principal">
         <div class="container-fluid header-inner">
-            <a class="navbar-brand brand" href="#">
+            <a class="navbar-brand brand" href="./">
                 <img class="site-logo" src="./public/img/icons/escudo.png" alt="Santo Domingo El Líder logo" width="56" height="56">
                 <span class="brand-text">Santo Domingo <span>El Líder</span></span>
             </a>
@@ -61,7 +61,7 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto align-items-center">
                     <li class="nav-item">
-                        <a class="nav-link" href="#about">Nosotros</a>
+                        <a class="nav-link" href="./nosotros.php">Nosotros</a>
                     </li>
 
                     <li class="nav-item dropdown">
@@ -91,7 +91,7 @@
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link" href="#contact">Contacto</a>
+                        <a class="nav-link" href="#contact">Galería</a>
                     </li>
 
                     <li class="nav-item mx-2">
