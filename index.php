@@ -46,6 +46,134 @@
     <link rel="stylesheet" href="./libs/font-awesone/css/brands.min.css">
     <link rel="stylesheet" href="./libs/font-awesone/css/solid.min.css">
 
+    <style>
+        /* Estilos personalizados para controles del carousel */
+        #carouselExampleIndicators .carousel-controls-bottom {
+            position: absolute;
+            bottom: 30px;
+            left: 50%;
+            transform: translateX(-50%);
+            display: flex;
+            align-items: center;
+            gap: 20px;
+            z-index: 15;
+        }
+
+        #carouselExampleIndicators .carousel-indicators {
+            background: white;
+            border-radius: 20px;
+            padding: 10px;
+            position: relative;
+            bottom: 0;
+            margin: 0;
+            display: flex;
+            gap: 10px;
+        }
+
+        #carouselExampleIndicators .carousel-indicators button {
+            width: 12px;
+            height: 12px;
+            border-radius: 50%;
+            border: 2px solid white;
+            background-color: var(--color2);
+            opacity: 0.7;
+            transition: all 0.3s ease;
+        }
+
+        #carouselExampleIndicators .carousel-indicators button.active {
+            background-color: var(--color1);
+            opacity: 1;
+            transform: scale(1.2);
+        }
+
+        #carouselExampleIndicators .carousel-control-custom {
+            width: 45px;
+            height: 45px;
+            background: white;
+            border: 2px solid white;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            backdrop-filter: blur(5px);
+        }
+
+        #carouselExampleIndicators .carousel-control-custom:hover {
+            transform: scale(1.1);
+        }
+
+        #carouselExampleIndicators .carousel-control-custom .carousel-control-prev-icon,
+        #carouselExampleIndicators .carousel-control-custom .carousel-control-next-icon {
+            width: 20px;
+            height: 20px;
+        }
+
+        /* Ocultar controles predeterminados de Bootstrap */
+        #carouselExampleIndicators .carousel-control-prev,
+        #carouselExampleIndicators .carousel-control-next {
+            display: none;
+        }
+
+        @media (max-width: 768px) {
+            #carouselExampleIndicators .carousel-controls-bottom {
+                bottom: 20px;
+                gap: 15px;
+            }
+
+            #carouselExampleIndicators .carousel-control-custom {
+                width: 38px;
+                height: 38px;
+            }
+        }
+
+        /* Estilos de Niveles */
+        div.crop {
+            height: 240px;
+            max-height: 240px;
+        }
+
+        div.crop>img {
+            height: 240px;
+            object-fit: cover;
+        }
+
+        #pNiveles div.bg-fade {
+            position: absolute;
+            width: 100%;
+            height: 242px;
+            background-color: rgba(36, 36, 36, 0.8);
+            text-align: center;
+            visibility: hidden;
+            -webkit-transition: opacity 900ms, visibility 900ms;
+            transition: opacity 900ms, visibility 900ms;
+            opacity: 0;
+            padding-left: 8px;
+            padding-right: 8px;
+        }
+
+        #pNiveles div.card {
+            box-shadow: 0 0 9px rgba(184, 184, 184, 0.8);
+        }
+
+        #pNiveles div.crop:hover div.bg-fade {
+            visibility: visible;
+            opacity: 1;
+        }
+
+        #pNiveles div.bg-fade span {
+            color: white;
+            font-size: 15px;
+            font-weight: bold;
+        }
+
+        #pNiveles div.bg-fade a.btn {
+            font-size: 14px;
+            font-weight: bold;
+        }
+    </style>
+
     <!-- JSON-LD: EducationalOrganization + WebSite + Breadcrumb -->
     <script type="application/ld+json">
         {
@@ -101,27 +229,38 @@
     <?php include './partials/header.php'; ?>
 
     <div class="container-fluid content-banner px-0">
-        <div id="carouselBanner" class="carousel slide carousel-fade" data-bs-ride="carousel">
-            <div class="carousel-indicators">
-                <button type="button" data-bs-target="#carouselBanner" data-bs-slide-to="0" class="active"></button>
-                <button type="button" data-bs-target="#carouselBanner" data-bs-slide-to="1"></button>
-                <button type="button" data-bs-target="#carouselBanner" data-bs-slide-to="2"></button>
+        <div id="carouselExampleIndicators" class="carousel slide carousel-fade" data-bs-ride="carousel">
+            <div class="carousel-controls-bottom">
+                <button class="carousel-control-custom" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                    <i class="fas fa-arrow-left" style="font-size:1rem;color:var(--color1);"></i>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                </div>
+
+                <button class="carousel-control-custom" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                    <i class="fas fa-arrow-right" style="font-size:1rem;color:var(--color1);"></i>
+                    <span class="visually-hidden">Next</span>
+                </button>
             </div>
 
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img src="./public/img/portadas/portadaweb2.jpg" class="d-block w-100" height="600" style="object-fit: cover;">
+                    <img src="./public/img/portadas/slider1.jpg" class="d-block w-100" height="600" style="object-fit: cover;">
                 </div>
                 <div class="carousel-item">
-                    <img src="./public/img/portadas/bg_13.jpg" class="d-block w-100" height="600" style="object-fit: cover;">
+                    <img src="./public/img/portadas/slider2.jpg" class="d-block w-100" height="600" style="object-fit: cover;">
                 </div>
             </div>
 
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselBanner" data-bs-slide="prev">
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">Previous</span>
             </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselBanner" data-bs-slide="next">
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">Next</span>
             </button>
@@ -130,21 +269,319 @@
 
     <main id="main">
 
-        <div class="container my-5 bienvenidos">
-            <div class="row justify-content-around align-items-center">
-                <div class="col-md-5">
-                    <h2>Bienvenidos</h2>
-                    <p class="text-justify fw-bold mt-4"> SEÑORES PADRES DE FAMILIA Y COMPAÑEROS DE LA VIDA QUE NOS HONRAN CON SU VISITA. </p>
-                    <p class="text-justify"> La Institución Educativa Flor de Oro abrió sus puertas a la colectividad el 01 de marzo del año 2007 y lo hizo con la firme convicción de alcanzar la excelencia académica y un óptimo desarrollo moral de todos sus integrantes. </p>
-                    <p class="text-justify"> Desde el punto de vista educativo, podemos decir con gran satisfacción que estamos a la vanguardia de los PROCESOS FORMATIVOS gracias a la diversidad de estrategias empleadas para trabajar cada una de las áreas de la personalidad de los seres humanos que uds. ponen a nuestro cuidado.
-                        <a style="color: var(--color1); font-weight: bold;" href="/bienvenidos">Leer más...</a>
-                    </p>
-                </div>
-                <div class="col-md-5">
-                    <img src="http://admin-flordeoro.com/public/img/web/directora.jpeg" width="100%" alt="">
+        <!-- Sección de Bienvenidos -->
+        <section class="bienvenidos-section py-5">
+            <div class="container py-4">
+                <div class="row g-5 align-items-center">
+                    <!-- Columna de Contenido -->
+                    <div class="col-lg-6 order-2 order-lg-1">
+                        <!-- Badge decorativo -->
+                        <!-- <div class="welcome-badge d-inline-flex align-items-center gap-2 mb-3">
+                            <i class="fas fa-graduation-cap"></i>
+                            <span>Educación de Excelencia</span>
+                        </div> -->
+
+                        <!-- Título con efecto -->
+                        <h2 class="section-title">
+                            Bienvenidos
+                            <span class="title-decoration"></span>
+                        </h2>
+
+                        <!--  <p class="welcome-intro">
+                            Señores Padres de Familia y Compañeros de la Vida que nos honran con su visita.
+                        </p> -->
+
+                        <!-- Contenido principal -->
+                        <div class="welcome-content">
+                            <p>
+                                La Institución Educativa Privada “Asociación Educativa Santo Domingo, el Líder” es una Institución Educativa que nace con el único propósito de formar integralmente a niños, niñas y adolescentes de los niveles de Inicial, Primaria y Secundaria, enmarcada en una educación de calidad, inclusiva y equitativa; garantizando a los padres de familia el logro de aprendizajes de acuerdo al Perfil de egreso, promoviendo la práctica de valores personales y sociales, y propiciando una cultura democrática en plenitud de paz y justicia.
+                            </p>
+                        </div>
+
+                        <!-- Botón de acción -->
+                        <a href="/bienvenidos" class="cta cta-welcome">
+                            <span>Conoce Más Sobre Nosotros</span>
+                            <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div> <!-- Columna de Imagen -->
+                    <div class="col-lg-6 order-1 order-lg-2">
+                        <div class="image-wrapper">
+                            <!-- Elementos decorativos -->
+                            <div class="decoration-circle decoration-1"></div>
+                            <div class="decoration-circle decoration-2"></div>
+
+                            <!-- Card de imagen -->
+                            <div class="welcome-image-card d-flex justify-content-center align-items-center">
+
+                                <img src="./public/img/web/bienvenidos2.jpg" alt="Colegio Santo Domingo El Líder" class="welcome-image">
+
+
+                                <!-- Badge flotante -->
+                                <!--  <div class="floating-badge">
+                                    <div class="badge-icon">
+                                        <i class="fas fa-quote-left"></i>
+                                    </div>
+                                    <div class="badge-text">
+                                        <strong>Formando Líderes</strong>
+                                        <p>Del Mañana</p>
+                                    </div>
+                                </div> -->
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
-        </div>
+            </div>
+        </section>
+        <section class="niveles-section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="d-flex justify-content-center">
+                            <h2 class="section-title">Niveles</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="row px-2  mt-4" id="pNiveles">
+                    <div class="col-md-4 px-2">
+                        <div class="card">
+                            <div class="crop">
+                                <div class="bg-fade">
+                                    <br><br><br>
+                                    <span>
+                                        Contamos con profesoras tituladas y especializadas en educación inicial, asimismo de
+                                        auxiliares en constante capacitación.
+                                    </span><br><br>
+                                    <a class="btn btn-warning text-white">
+                                        Ver más &nbsp;<i class="fa fa-arrow-circle-right" aria-hidden="true"></i>
+                                    </a>
+                                </div>
+                                <img src="./public/img/web/portada_inicial.png" class="w-100">
+                            </div>
+                            <div class="card-body text-center">
+                                <a href="#" class=" color-prim font-weight-bold" style="color:var(--color1);font-weight: bold;">
+                                    NIVEL INICIAL
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 px-2">
+                        <div class="card">
+                            <div class="crop">
+                                <div class="bg-fade">
+                                    <br><br><br>
+                                    <span>
+                                        Contamos con profesores y auxiliares especializados en educación primaria. Sistema
+                                        tutorial para el desarrollo de valores.
+                                    </span><br><br>
+                                    <a class="btn btn-warning text-white">
+                                        Ver más &nbsp;<i class="fa fa-arrow-circle-right" aria-hidden="true"></i>
+                                    </a>
+                                </div>
+                                <img src="./public/img/web/portada_primaria.png" class="w-100">
+                            </div>
+                            <div class="card-body text-center">
+                                <a href="#" class="color-prim font-weight-bold" style="color:var(--color1);font-weight: bold;">
+                                    NIVEL PRIMARIA
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 px-2">
+                        <div class="card">
+                            <div class="crop">
+                                <div class="bg-fade">
+                                    <br><br><br>
+                                    <span>
+                                        Profesores titulados y espcializados en educación secundaria. Enfoque orientado al
+                                        desarrollo de las inteligencias múltiples.
+                                    </span><br><br>
+                                    <a class="btn btn-warning text-white">
+                                        Ver más &nbsp;<i class="fa fa-arrow-circle-right" aria-hidden="true"></i>
+                                    </a>
+                                </div>
+                                <img src="./public/img/web/portada_secundaria.png" class="w-100">
+                            </div>
+                            <div class="card-body text-center">
+                                <a href="#" class="color-prim font-weight-bold" style="color:var(--color1);font-weight: bold;">
+                                    NIVEL SECUNDARIA
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="publicaciones-section">
+            <div class="container">
+                <div class="row pt-5">
+                    <div class="col-lg-12">
+                        <div class="d-flex justify-content-center">
+                            <h2 class="section-title">Publicaciones</h2>
+
+                        </div>
+                    </div>
+                </div>
+                <style>
+                    .card-galeria {
+                        background-color: rgba(0, 0, 0, 0.03);
+                        border-radius: 5px;
+                        box-shadow: 0 0 30px rgba(0, 0, 0, 0.18);
+                    }
+
+                    .container-galeria {
+                        position: relative;
+                        clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
+                    }
+
+                    #portada-galeria {
+                        width: 100%;
+                        display: block;
+                        border-radius: 5px 5px 0 0;
+                    }
+
+                    .container-galeria:after {
+                        content: "";
+                        height: 100%;
+                        width: 100%;
+                        position: absolute;
+                        top: 0;
+                        left: 0;
+                        border-radius: 5px 5px 0 0;
+                        opacity: 0.7;
+                    }
+
+                    /* .card1>.container-galeria:after {
+                        background-image: linear-gradient(135deg, var(--color1), var(--color1));
+                    }
+
+                    .card2>.container-galeria:after {
+                         background-image: linear-gradient(135deg, var(--color1), var(--color1));
+                    }
+
+                    .card3>.container-galeria:after {
+                        background-image: linear-gradient(135deg, var(--color1), var(--color1));
+                    } */
+
+                    .details {
+                        padding: 20px 10px;
+                    }
+
+                    .details h3 {
+                        font-family: 'Poppins', sans-serif;
+                        color: var(--color1);
+                        font-weight: 600;
+                        font-size: 18px;
+                        margin: 10px 0 15px 0;
+                    }
+
+                    .details p {
+                        color: #a0a0a0;
+                        font-size: 15px;
+                        line-height: 30px;
+                        font-weight: 400;
+                    }
+
+                    /* Otros estilos de botones */
+                    .btn {
+                        background-color: var(--color1);
+                        color: white;
+                        border: none;
+                        padding: 10px 20px;
+                        border-radius: 20px;
+                        cursor: pointer;
+                        transition: .3s;
+                    }
+
+                    .btn:hover {
+                        color: white;
+                        background-color: var(--color1);
+                        transform: translateY(-5px);
+                    }
+                </style>
+                <div class="row cards d-flex justify-content-center align-items-center">
+                    <div class="col-lg-4 pt-5">
+                        <div class=" card-galeria card1">
+                            <div class="container-galeria">
+                                <img id="portada-galeria" src="./public/img/web/desf2.jpg" alt="galeria">
+                            </div>
+                            <div class="details">
+                                <div class="row d-flex">
+                                    <div class="col-lg-5">
+                                        <h3>Pastoral 1</h3>
+                                        <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dignissimos, minus aperiam adipisci exercitationem.</p> -->
+                                        <a class="btn" href="#">Ver Más</a>
+                                    </div>
+                                    <div class="col-lg-6 d-flex justify-content-end align-items-center">
+                                        <img src="./public/img/icons/escudo.png" width="35%" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 pt-5">
+                        <div class="card-galeria card2">
+                            <div class="container-galeria">
+                                <img id="portada-galeria" src="./public/img/web/desf2.jpg" alt="galeria">
+                            </div>
+                            <div class="details">
+                                <div class="row d-flex">
+                                    <div class="col-lg-5">
+                                        <h3>Pastoral 2</h3>
+                                        <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dignissimos, minus aperiam adipisci exercitationem.</p> -->
+                                        <a class="btn" href="#">Ver Más</a>
+                                    </div>
+                                    <div class="col-lg-6 d-flex justify-content-end align-items-center">
+                                        <img src="./public/img/icons/escudo.png" width="35%" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 pt-5">
+                        <div class="card-galeria card3">
+                            <div class="container-galeria">
+                                <img id="portada-galeria" src="./public/img/web/desf2.jpg" alt="galeria">
+                            </div>
+                            <div class="details">
+                                <div class="row d-flex">
+                                    <div class="col-lg-5">
+                                        <h3>Pastoral 3</h3>
+                                        <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dignissimos, minus aperiam adipisci exercitationem.</p> -->
+                                        <a class="btn" href="#">Ver Más</a>
+                                    </div>
+                                    <div class="col-lg-6 d-flex justify-content-end align-items-center">
+                                        <img src="./public/img/icons/escudo.png" width="35%" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="ubicacion-section">
+            <div class="container">
+                <div class="row pt-5">
+                    <div class="col-lg-12">
+                        <div class="d-flex justify-content-start">
+                            <h2 class="section-title">Ubicación<span class="title-decoration"></span></h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="row mt-4">
+                    <div class="col"><iframe class="shadow-lg" src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3904.7804288506436!2d-77.05496552423405!3d-11.850637488371131!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2s57W44WXX%2BP2X!5e0!3m2!1ses!2spe!4v1765185453906!5m2!1ses!2spe" width="100%" height="500" style="border: 20px solid #fff; border-radius: 5px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                       <!--  <iframe class="shadow-lg" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d487.5100393186484!2d-76.9940203!3d-12.1749352!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105b9cc99ff9ae1%3A0xba239e2482b3a265!2sAv.%20Guardia%20Civil%20Sur%20867%2C%20Chorrillos%2015056!5e0!3m2!1ses-419!2spe!4v1700495464385!5m2!1ses-419!2spe" width="100%" height="500" style="border: 20px solid #fff; border-radius: 5px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> -->
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
     </main>
 
     <?php include './partials/footer.php'; ?>

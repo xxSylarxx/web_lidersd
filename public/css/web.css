@@ -117,7 +117,7 @@ header {
   background: linear-gradient(135deg, var(--color1), var(--color2));
   color: white;
   padding: 0.7rem 1.5rem;
-  border-radius: 8px;
+  border-radius: 50px;
   font-weight: 600;
   box-shadow: 0 4px 12px rgba(30, 64, 175, 0.3);
   transition: all 0.3s;
@@ -170,12 +170,428 @@ footer {
   padding: 3rem 0 2rem;
   margin-top: 4rem;
 }
-footer a,p {
+footer a,
+p {
   color: var(--color8);
 }
 footer a:hover {
   color: white;
 }
 footer strong {
+  color: white;
+}
+
+/* Formulario de contacto en footer */
+.footer-input {
+  background-color: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  color: var(--color10);
+  border-radius: 8px;
+  padding: 10px 12px;
+  transition: all 0.3s ease;
+}
+
+.footer-input::placeholder {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.footer-input:focus {
+  background-color: rgba(255, 255, 255, 0.15);
+  border-color: var(--color3);
+  color: var(--color10);
+  box-shadow: 0 0 0 0.2rem rgba(59, 130, 246, 0.25);
+  outline: none;
+}
+
+.btn-footer {
+  background: linear-gradient(135deg, var(--color1), var(--color3));
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 0.9rem;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 12px rgba(30, 64, 175, 0.3);
+}
+
+.btn-footer:hover {
+  background: linear-gradient(135deg, var(--color2), var(--color1));
+  transform: translateY(-2px);
+  box-shadow: 0 6px 16px rgba(30, 64, 175, 0.4);
+  color: white;
+}
+
+.btn-footer:active {
+  transform: translateY(0);
+}
+
+.btn-footer:disabled {
+  opacity: 0.7;
+  cursor: not-allowed;
+}
+
+/* ====================================
+   SECCIÓN DE BIENVENIDOS
+   ==================================== */
+
+.bienvenidos-section {
+  padding: 80px 0;
+  background: linear-gradient(135deg, #f8fafc 0%, #ffffff 100%);
+  position: relative;
+  overflow: hidden;
+}
+
+.bienvenidos-section::before {
+  content: "";
+  position: absolute;
+  top: -50%;
+  right: -10%;
+  width: 500px;
+  height: 500px;
+  background: linear-gradient(
+    135deg,
+    rgba(30, 64, 175, 0.05),
+    rgba(59, 130, 246, 0.05)
+  );
+  border-radius: 50%;
+  z-index: 0;
+}
+
+.bienvenidos-section .container {
+  position: relative;
+  z-index: 1;
+}
+
+/* Badge decorativo superior */
+.welcome-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: linear-gradient(135deg, var(--color1), var(--color3));
+  color: white;
+  padding: 8px 20px;
+  border-radius: 30px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 15px rgba(30, 64, 175, 0.2);
+  animation: fadeInDown 0.6s ease;
+}
+
+.welcome-badge i {
+  font-size: 1rem;
+}
+
+/* Título de sección */
+.section-title {
+  font-family: "Montserrat", sans-serif;
+  font-size: 2.56rem;
+  font-weight: 700;
+  color: var(--color5);
+  margin-bottom: 20px;
+  position: relative;
+  animation: fadeInUp 0.6s ease 0.2s backwards;
+}
+
+.title-decoration {
+  display: block;
+  width: 80px;
+  height: 4px;
+  background: linear-gradient(90deg, var(--color1), var(--color4));
+  margin-top: 15px;
+  border-radius: 2px;
+  position: relative;
+}
+
+.title-decoration::after {
+  content: "";
+  position: absolute;
+  right: -20px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 12px;
+  height: 12px;
+  background: var(--color3);
+  border-radius: 50%;
+}
+
+/* Subtítulo destacado */
+.welcome-intro {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: var(--color2);
+  line-height: 1.6;
+  margin-bottom: 25px;
+  animation: fadeInUp 0.6s ease 0.3s backwards;
+}
+
+/* Contenido principal */
+.welcome-content {
+  margin-bottom: 30px;
+  animation: fadeInUp 0.6s ease 0.4s backwards;
+}
+
+.welcome-content p {
+  font-size: 1.05rem;
+  line-height: 1.8;
+  color: var(--color6);
+  margin-bottom: 15px;
+}
+
+.welcome-content strong {
+  color: var(--color1);
+  font-weight: 600;
+}
+
+/* Botón CTA personalizado */
+.cta-welcome {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  background: linear-gradient(135deg, var(--color1), var(--color2));
+  color: white;
+  padding: 14px 30px;
+  border-radius: 50px;
+  font-weight: 600;
+  font-size: 1rem;
+  box-shadow: 0 6px 20px rgba(30, 64, 175, 0.3);
+  transition: all 0.3s ease;
+  margin-bottom: 40px;
+  animation: fadeInUp 0.6s ease 0.5s backwards;
+}
+
+.cta-welcome:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 25px rgba(30, 64, 175, 0.4);
+  color: white;
+}
+
+.cta-welcome i {
+  transition: transform 0.3s ease;
+}
+
+.cta-welcome:hover i {
+  transform: translateX(5px);
+}
+
+/* Wrapper de imagen */
+.image-wrapper {
+  position: relative;
+  animation: fadeInRight 0.8s ease 0.3s backwards;
+}
+
+/* Círculos decorativos */
+.decoration-circle {
+  position: absolute;
+  border-radius: 50%;
+  z-index: 0;
+}
+
+.decoration-1 {
+  width: 200px;
+  height: 200px;
+  background: linear-gradient(
+    135deg,
+    rgba(30, 64, 175, 0.1),
+    rgba(59, 130, 246, 0.1)
+  );
+  top: -30px;
+  right: -30px;
+  animation: float 6s ease-in-out infinite;
+}
+
+.decoration-2 {
+  width: 150px;
+  height: 150px;
+  background: linear-gradient(
+    135deg,
+    rgba(59, 130, 246, 0.08),
+    rgba(96, 165, 250, 0.08)
+  );
+  bottom: -20px;
+  left: -20px;
+  animation: float 8s ease-in-out infinite reverse;
+}
+
+/* Card de imagen */
+.welcome-image-card {
+  position: relative;
+  /*  border-radius: 20px; */
+  /* overflow: hidden; */
+
+  z-index: 1;
+  transition: all 0.4s ease;
+}
+
+/* .welcome-image-card:hover {
+  transform: translateY(-10px);
+} */
+
+.welcome-image {
+  width: 60%;
+  height: auto;
+  display: block;
+  object-fit: cover;
+  border-radius: 15px;
+  transition: transform 0.4s ease;
+  /*  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.15); */
+}
+
+.welcome-image-card:hover .welcome-image {
+  transform: scale(1.05);
+}
+
+/* Animaciones */
+@keyframes fadeInDown {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeInRight {
+  from {
+    opacity: 0;
+    transform: translateX(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes float {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+}
+
+@keyframes floatBadge {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+/* Responsive */
+@media (max-width: 991px) {
+  .bienvenidos-section {
+    padding: 60px 0;
+  }
+
+  .section-title {
+    font-size: 2.5rem;
+  }
+
+  .welcome-intro {
+    font-size: 1.1rem;
+  }
+
+  .image-wrapper {
+    margin-top: 40px;
+  }
+}
+
+@media (max-width: 768px) {
+  .section-title {
+    font-size: 2rem;
+  }
+
+  .welcome-intro {
+    font-size: 1rem;
+  }
+
+  .welcome-content p {
+    font-size: 1rem;
+  }
+
+  .stats-mini {
+    gap: 15px;
+  }
+
+  .stat-item {
+    flex: 1;
+    min-width: calc(50% - 10px);
+  }
+
+  .floating-badge {
+    bottom: 20px;
+    left: 20px;
+    padding: 15px 20px;
+  }
+
+  .badge-icon {
+    width: 40px;
+    height: 40px;
+    font-size: 1.1rem;
+  }
+
+  .badge-text strong {
+    font-size: 0.95rem;
+  }
+
+  .badge-text p {
+    font-size: 0.8rem;
+  }
+
+  .decoration-1,
+  .decoration-2 {
+    display: none;
+  }
+}
+
+@media (max-width: 576px) {
+  .bienvenidos-section {
+    padding: 40px 0;
+  }
+
+  .section-title {
+    font-size: 1.8rem;
+  }
+
+  .stat-item {
+    min-width: 100%;
+  }
+
+  .cta-welcome {
+    width: 100%;
+    justify-content: center;
+  }
+}
+
+/* Personalización de botones en sección niveles */
+#pNiveles .btn-warning {
+  background-color: var(--color2);
+  border-color: var(--color2);
+  color: white;
+  transition: all 0.3s ease;
+}
+
+#pNiveles .btn-warning:hover {
+  background-color: var(--color1);
+  border-color: var(--color1);
   color: white;
 }

@@ -19,7 +19,7 @@
     }
 
     header .barsup .mininav a i {
-        font-size: 16px;
+        font-size: 1.2rem;
     }
 
     header .barsup .mininav .mininav-item {
@@ -33,23 +33,16 @@
 
                 <div class="col-6 d-flex justify-content-start mininav">
                     
-                    <div class="mininav-item my-2"><a href="" target="_blank"> <i class="fab fa-facebook"></i> <span class="ms-2">Facebook</span> </a></div>
+                    <div class="mininav-item my-2"><a href="https://www.facebook.com/santodomingolider" target="_blank"> <i class="fab fa-facebook"></i> <span class="ms-2">Facebook</span> </a></div>
                    
 
                     
-                    <div class="mininav-item my-2"><a href="" target="_blank"> <i class="fab fa-instagram"></i> <span class="ms-2">Instagram</span> </a></div>
+                    <div class="mininav-item my-2"><a href="https://www.instagram.com/santodomingolider" target="_blank"> <i class="fab fa-instagram"></i> <span class="ms-2">Instagram</span> </a></div>
                 
                     
                     
-                    <div class="mininav-item my-2"><a href="" target=" _blank"> <i class="fab fa-youtube"></i> <span class="ms-2">Youtube</span> </a></div>
-                  
-
-                    
-                    <div class="mininav-item my-2"><a href="" target="_blank"> <i class="fab fa-twitter"></i> <span class="ms-2">Twitter</span> </a></div>
-                  
-                    
-                    
-                    <div class="mininav-item my-2"><a href="" target="_blank"> <i class="fab fa-tiktok"></i> <span class="ms-2">Tik Tok</span> </a></div>
+                    <div class="mininav-item my-2"><a href="https://www.youtube.com/@santodomingolider" target=" _blank"> <i class="fab fa-youtube"></i> <span class="ms-2">Youtube</span> </a></div>
+                    <div class="mininav-item my-2"><a href="https://www.tiktok.com/@santodomingolider" target="_blank"> <i class="fab fa-tiktok"></i> <span class="ms-2">Tik Tok</span> </a></div>
                    
                 </div>
 
@@ -63,7 +56,7 @@
                    
                     
                     
-                    <div class="mininav-item my-2"><a href="" target="_blank"> <i class="fas fa-globe"></i> <span class="ms-2">Intranet</span> </a></div>
+                    <div class="mininav-item my-2"><a href="https://lidersd.cubicol.pe/principal/login" target="_blank"> <i class="fas fa-globe"></i> <span class="ms-2">Intranet</span> </a></div>
                     
 
                     <!-- <div class="mininav-item my-2"><a target="_blank"> <i class="far fa-clock"></i> <span class="ms-2">Atención: 8am - 6pm</span> </a></div> -->
@@ -109,14 +102,10 @@
                             Niveles
                         </a>
                         <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#inicial">🎨 Inicial</a></li>
-                            <li><a class="dropdown-item" href="#primaria">📚 Primaria</a></li>
-                            <li><a class="dropdown-item" href="#secundaria">🎓 Secundaria</a></li>
+                            <li><a class="dropdown-item" href="inicial">Inicial</a></li>
+                            <li><a class="dropdown-item" href="primaria">Primaria</a></li>
+                            <li><a class="dropdown-item" href="secundaria">Secundaria</a></li>
                         </ul>
-                    </li>
-
-                    <li class="nav-item">
-                        <a class="nav-link" href="#admissions">Admisión 2026</a>
                     </li>
 
                     <li class="nav-item">
