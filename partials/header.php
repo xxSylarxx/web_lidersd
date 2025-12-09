@@ -61,7 +61,16 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto align-items-center">
                     <li class="nav-item">
-                        <a class="nav-link" href="./nosotros.php">Nosotros</a>
+                        <a class="nav-link" href="./">Inicio</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#propuesta" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                           Nosotros
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="./historia.php">Reseña Histórica</a></li>
+                            <li><a class="dropdown-item" href="./identidad.php">Nuestra Identidad</a></li>
+                        </ul>
                     </li>
 
                     <li class="nav-item dropdown">
@@ -69,13 +78,7 @@
                             Propuesta educativa
                         </a>
                         <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#metodologia">Metodología</a></li>
-                            <li><a class="dropdown-item" href="#valores">Valores</a></li>
-                            <li><a class="dropdown-item" href="#idiomas">Idiomas</a></li>
-                            <li>
-                                <hr class="dropdown-divider">
-                            </li>
-                            <li><a class="dropdown-item" href="#propuesta">Ver todo</a></li>
+                            <li><a class="dropdown-item" href="./valores.php">Valores</a></li>
                         </ul>
                     </li>
 
