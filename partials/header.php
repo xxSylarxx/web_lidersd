@@ -87,9 +87,9 @@
                             Niveles
                         </a>
                         <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="inicial">Inicial</a></li>
-                            <li><a class="dropdown-item" href="primaria">Primaria</a></li>
-                            <li><a class="dropdown-item" href="secundaria">Secundaria</a></li>
+                            <li><a class="dropdown-item" href="./inicial.php">Inicial</a></li>
+                            <li><a class="dropdown-item" href="./primaria.php">Primaria</a></li>
+                            <li><a class="dropdown-item" href="./secundaria.php">Secundaria</a></li>
                         </ul>
                     </li>
 

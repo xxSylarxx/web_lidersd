@@ -137,7 +137,7 @@
                 <div class="col-lg-4 pt-5 px-5">
                     <div class="d-flex justify-content-center">
                         <div class="content-icon" style="background-color: var(--color3);">
-                            <center><img src="https://www.cristosalvador.edu.pe/public/img/icons/respeto.png" alt=""></center>
+                            <center><img src="./public/img/icons/respeto.png" alt=""></center>
                         </div>
                     </div>
                     <h3>Responsabilidad</h3>
@@ -145,7 +145,7 @@
                 <div class="col-lg-4 pt-5 px-5">
                     <div class="d-flex justify-content-center">
                         <div class="content-icon" style="background-color: var(--color3);">
-                            <center><img src="https://www.cristosalvador.edu.pe/public/img/icons/responsabilidad.png" alt=""></center>
+                            <center><img src="./public/img/icons/responsabilidad.png" alt=""></center>
                         </div>
                     </div>
                     <h3>Respeto</h3>
@@ -153,7 +153,7 @@
                 <div class="col-lg-4 pt-5 px-5">
                     <div class="d-flex justify-content-center">
                         <div class="content-icon" style="background-color: var(--color3);">
-                            <center><img src="https://www.cristosalvador.edu.pe/public/img/icons/solidaridad.png" alt=""></center>
+                            <center><img src="./public/img/icons/solidaridad.png" alt=""></center>
                         </div>
                     </div>
                     <h3>Resiliencia</h3>
@@ -161,7 +161,7 @@
                 <div class="col-lg-4 pt-5 px-5">
                     <div class="d-flex justify-content-center">
                         <div class="content-icon" style="background-color: var(--color3);">
-                            <center><img src="https://www.cristosalvador.edu.pe/public/img/icons/honestidad.png" alt=""></center>
+                            <center><img src="./public/img/icons/honestidad.png" alt=""></center>
                         </div>
                     </div>
                     <h3>Solidaridad</h3>
@@ -169,7 +169,7 @@
                 <div class="col-lg-4 pt-5 px-5">
                     <div class="d-flex justify-content-center">
                         <div class="content-icon" style="background-color: var(--color3);">
-                            <center><img src="https://www.cristosalvador.edu.pe/public/img/icons/tolerancia.png" alt=""></center>
+                            <center><img src="./public/img/icons/tolerancia.png" alt=""></center>
                         </div>
                     </div>
                     <h3>Liderazgo</h3>

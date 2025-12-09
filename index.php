@@ -418,7 +418,6 @@
 
         <section class="publicaciones-section">
             <div class="container">
-
                 <div class="row pt-5">
                     <div class="col-lg-12">
                         <div class="d-flex justify-content-center">
