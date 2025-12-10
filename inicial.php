@@ -248,34 +248,19 @@
                                     <img class="img-fluid border" src="./public/img/galeria/fachada.jpeg" onclick="showFoto(3);">
                                 </div>
                             </div>
-                            <!-- <div class="blog_item">
+                            <div class="blog_item">
                                 <div class="blog_image">
-                                    <img class="img-fluid border" src="./public/img/galeria/fachada.jpeg" onclick="showFoto(4);">
+                                    <img class="img-fluid border" src="./public/img/web/grass.jpg" onclick="showFoto(4);">
+                                </div>
+                            </div>
+                           <!--  <div class="blog_item">
+                                <div class="blog_image">
+                                    <img class="img-fluid border" src="./public/img/web/labingles.jpg" onclick="showFoto(5);">
                                 </div>
                             </div>
                             <div class="blog_item">
                                 <div class="blog_image">
-                                    <img class="img-fluid border" src="./public/img/galeria/fachada.jpeg" onclick="showFoto(5);">
-                                </div>
-                            </div>
-                            <div class="blog_item">
-                                <div class="blog_image">
-                                    <img class="img-fluid border" src="./public/img/galeria/fachada.jpeg" onclick="showFoto(6);">
-                                </div>
-                            </div>
-                            <div class="blog_item">
-                                <div class="blog_image">
-                                    <img class="img-fluid border" src="./public/img/galeria/fachada.jpeg" onclick="showFoto(7);">
-                                </div>
-                            </div>
-                            <div class="blog_item">
-                                <div class="blog_image">
-                                    <img class="img-fluid border" src="./public/img/galeria/fachada.jpeg" onclick="showFoto(8);">
-                                </div>
-                            </div>
-                            <div class="blog_item">
-                                <div class="blog_image">
-                                    <img class="img-fluid border" src="./public/img/galeria/fachada.jpeg" onclick="showFoto(9);">
+                                    <img class="img-fluid border" src="./public/img/web/labcomputo.jpg" onclick="showFoto(6);">
                                 </div>
                             </div> -->
                         </div>
@@ -439,8 +424,8 @@
                 './public/img/web/infra_inicial1.jpg',
                 './public/img/web/infra_inicial2.jpg',
                 './public/img/web/infra_inicial3.jpg',
-                './public/img/galeria/fachada.jpeg'
-                
+                './public/img/galeria/fachada.jpeg',
+                './public/img/web/grass.jpg'
             ];
             $('#fotoview').attr('src', list[item]);
             $('#modalFoto').modal('show');
