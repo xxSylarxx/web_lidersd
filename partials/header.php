@@ -92,13 +92,21 @@
                             <li><a class="dropdown-item" href="./secundaria.php">Secundaria</a></li>
                         </ul>
                     </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#niveles" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Publicaciones
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="./comunicados.php">Comunicados</a></li>
+                        </ul>
+                    </li>
 
                     <li class="nav-item">
-                        <a class="nav-link" href="#contact">Galería</a>
+                        <a class="nav-link" href="./galeria.php">Galería</a>
                     </li>
 
                     <li class="nav-item mx-2">
-                        <a href="#admissions" class="cta">Admisión 2026</a>
+                        <a href="./admision.php" class="cta">Admisión 2026</a>
                     </li>
                 </ul>
             </div>

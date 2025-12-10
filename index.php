@@ -355,14 +355,14 @@
                                     <span>
                                         Disponemos de docentes tituladas y especialistas en educación inicial, además de auxiliares que se encuentran en permanente proceso de capacitación.
                                     </span><br><br>
-                                    <a class="btn btn-warning text-white">
+                                    <a class="btn btn-warning text-white" href="./inicial.php">
                                         Ver más &nbsp;<i class="fa fa-arrow-circle-right" aria-hidden="true"></i>
                                     </a>
                                 </div>
                                 <img src="./public/img/web/portada_inicial.png" class="w-100">
                             </div>
                             <div class="card-body text-center">
-                                <a href="#" class=" color-prim font-weight-bold" style="color:var(--color1);font-weight: bold;">
+                                <a href="./inicial.php" class=" color-prim font-weight-bold" style="color:var(--color1);font-weight: bold;">
                                     NIVEL INICIAL
                                 </a>
                             </div>
@@ -376,14 +376,14 @@
                                     <span>
                                         Contamos con docentes y auxiliares especializados en educación primaria, además de un sistema tutorial orientado al fortalecimiento de los valores.
                                     </span><br><br>
-                                    <a class="btn btn-warning text-white">
+                                    <a class="btn btn-warning text-white" href="./primaria.php">
                                         Ver más &nbsp;<i class="fa fa-arrow-circle-right" aria-hidden="true"></i>
                                     </a>
                                 </div>
                                 <img src="./public/img/web/portada_primaria.png" class="w-100">
                             </div>
                             <div class="card-body text-center">
-                                <a href="#" class="color-prim font-weight-bold" style="color:var(--color1);font-weight: bold;">
+                                <a href="./primaria.php" class="color-prim font-weight-bold" style="color:var(--color1);font-weight: bold;">
                                     NIVEL PRIMARIA
                                 </a>
                             </div>
@@ -398,14 +398,14 @@
                                         Docentes titulados y espcializados en educación secundaria. Enfoque orientado al
                                         desarrollo de las inteligencias múltiples.
                                     </span><br><br>
-                                    <a class="btn btn-warning text-white">
+                                    <a href="./secundaria.php" class="btn btn-warning text-white">
                                         Ver más &nbsp;<i class="fa fa-arrow-circle-right" aria-hidden="true"></i>
                                     </a>
                                 </div>
                                 <img src="./public/img/web/portada_secundaria.png" class="w-100">
                             </div>
                             <div class="card-body text-center">
-                                <a href="#" class="color-prim font-weight-bold" style="color:var(--color1);font-weight: bold;">
+                                <a href="./secundaria.php" class="color-prim font-weight-bold" style="color:var(--color1);font-weight: bold;">
                                     NIVEL SECUNDARIA
                                 </a>
                             </div>
@@ -440,7 +440,7 @@
                                         <div class="mx-3" style="display:flex;justify-content:center;flex-direction:column;">
                                             <h3>Visitas Guiadas</h3>
                                             <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dignissimos, minus aperiam adipisci exercitationem.</p> -->
-                                            <a class="btn-pub" href="#">Ver Más</a>
+                                            <a class="btn-pub" href="view.php?id=1">Ver Más</a>
                                         </div>
                                     </div>
                                     <div class="col-lg-4 d-flex justify-content-end align-items-start">
@@ -461,7 +461,7 @@
                                         <div class="mx-3" style="display:flex;justify-content:center;flex-direction:column;">
                                             <h3>Matrícula 2026</h3>
                                             <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dignissimos, minus aperiam adipisci exercitationem.</p> -->
-                                            <a class="btn-pub" href="#">Ver Más</a>
+                                            <a class="btn-pub" href="view.php?id=2">Ver Más</a>
                                         </div>
                                     </div>
                                     <div class="col-lg-4 d-flex justify-content-end align-items-start">
@@ -482,7 +482,7 @@
                                         <div class="mx-3" style="display:flex;justify-content:center;flex-direction:column;">
                                             <h3>Boletín Informativo</h3>
                                             <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dignissimos, minus aperiam adipisci exercitationem.</p> -->
-                                            <a class="btn-pub" href="#">Ver Más</a>
+                                            <a class="btn-pub" href="view.php?id=3">Ver Más</a>
                                         </div>
                                     </div>
                                     <div class="col-lg-4 d-flex justify-content-end align-items-start">
