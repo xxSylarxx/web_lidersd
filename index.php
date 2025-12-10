@@ -359,7 +359,7 @@
                                         Ver más &nbsp;<i class="fa fa-arrow-circle-right" aria-hidden="true"></i>
                                     </a>
                                 </div>
-                                <img src="./public/img/web/portada_inicial.png" class="w-100">
+                                <img src="./public/img/web/portada_inicial.jpg" class="w-100">
                             </div>
                             <div class="card-body text-center">
                                 <a href="./inicial.php" class=" color-prim font-weight-bold" style="color:var(--color1);font-weight: bold;">
@@ -380,7 +380,7 @@
                                         Ver más &nbsp;<i class="fa fa-arrow-circle-right" aria-hidden="true"></i>
                                     </a>
                                 </div>
-                                <img src="./public/img/web/portada_primaria.png" class="w-100">
+                                <img src="./public/img/web/portada_primaria.jpg" class="w-100">
                             </div>
                             <div class="card-body text-center">
                                 <a href="./primaria.php" class="color-prim font-weight-bold" style="color:var(--color1);font-weight: bold;">
@@ -402,7 +402,7 @@
                                         Ver más &nbsp;<i class="fa fa-arrow-circle-right" aria-hidden="true"></i>
                                     </a>
                                 </div>
-                                <img src="./public/img/web/portada_secundaria.png" class="w-100">
+                                <img src="./public/img/web/portada_secundaria.jpg" class="w-100">
                             </div>
                             <div class="card-body text-center">
                                 <a href="./secundaria.php" class="color-prim font-weight-bold" style="color:var(--color1);font-weight: bold;">

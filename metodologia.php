@@ -117,7 +117,7 @@
                         <div class="decoration-circle decoration-1"></div>
                         <div class="decoration-circle decoration-2"></div>
                         <div class="welcome-image2-card d-flex justify-content-center align-items-center">
-                            <img src="./public/img/web/portada_inicial.png" alt="Colegio Santo Domingo El Líder" class="welcome-image2">
+                            <img src="./public/img/web/portada_inicial.jpg" alt="Colegio Santo Domingo El Líder" class="welcome-image2">
                         </div>
                     </div>
                 </div> -->
@@ -212,9 +212,10 @@
         .owl-next {
             background: var(--color1) !important;
             color: white !important;
-            border-radius: 10px !important;
-            width: 60px;
-            height: 60px;
+            border-radius:50% !important;
+            border:4px solid white!important;
+            width: 40px;
+            height: 40px;
             display: flex !important;
             align-items: center;
             justify-content: center;
@@ -234,12 +235,12 @@
         /* Posicionar los botones */
         .owl-prev {
             position: absolute;
-            left: -8px;
+            left: -25px;
         }
 
         .owl-next {
             position: absolute;
-            right: -8px;
+            right: -25px;
         }
 
         @media only screen and (max-width: 650px) {
@@ -339,6 +340,112 @@
 
                 </div>
             </div>
+             <br>
+
+            <div class="row py-5">
+                <div class="col-lg-6 my-auto">
+                    <div class="margin-infra">
+                        <div class="sedes_content_slider owl-carousel owl-theme">
+                            <div class="sedes_slider">
+                                <img src="./public/img/web/danza1.jpg" alt="Imagen 1">
+                            </div>
+                            <div class="sedes_slider">
+                                <img src="./public/img/web/danza1.jpg" alt="Imagen 2">
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-lg-6 my-auto">
+                    <div class="margin-infra pt-5">
+                        <h2>!Sangre Dominguina!!Sangre de Campeones!</h2>
+                        <br>
+                        <p><b>Danzas: Expresión cultural y desarrollo integral.</b> La participación en danzas permite a los estudiantes conectar con sus raíces culturales, fortalecer su identidad y valorar la diversidad. A través del baile, los alumnos desarrollan coordinación, disciplina, trabajo en equipo y confianza en sí mismos. Las danzas fomentan la creatividad, la expresión corporal y el respeto por las tradiciones, contribuyendo a una formación integral que abarca tanto el aspecto físico como emocional y social del estudiante.</p>
+                    </div>
+                </div>
+
+            </div>
+
+            <br>
+            <div class="row">
+                <div class="col-lg-6 my-auto">
+                    <div class="margin-infra">
+                        <h2>Feria de Ciencias - EUREKA</h2>
+                        <br>
+                        <p>
+                            <b>Feria de Ciencias - EUREKA: Investigación y método científico en acción.</b> El proyecto EUREKA es una expociencia donde los estudiantes desarrollan su capacidad investigativa aplicando el método científico. A través de la formulación de preguntas, la experimentación y la presentación de resultados, los alumnos exploran fenómenos científicos y resuelven problemas de manera creativa. Esta experiencia fomenta el pensamiento crítico, la curiosidad y el trabajo colaborativo, permitiendo que los estudiantes se conviertan en protagonistas de su propio aprendizaje y compartan sus descubrimientos con la comunidad educativa.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-6 my-auto">
+                    <div class="margin-infra">
+                        <div class="sedes_content_slider owl-carousel owl-theme">
+                            <div class="sedes_slider">
+                                <img src="./public/img/web/eureka1.jpg" alt="Imagen 1">
+                            </div>
+                            <div class="sedes_slider">
+                                <img src="./public/img/web/eureka2.jpg" alt="Imagen 2">
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+ <br>
+
+            <div class="row py-5">
+                <div class="col-lg-6 my-auto">
+                    <div class="margin-infra">
+                        <div class="sedes_content_slider owl-carousel owl-theme">
+                            <div class="sedes_slider">
+                                <img src="./public/img/web/gau1.jpg" alt="Imagen 1">
+                            </div>
+                            <div class="sedes_slider">
+                                <img src="./public/img/web/gau2.jpg" alt="Imagen 2">
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-lg-6 my-auto">
+                    <div class="margin-infra pt-5">
+                        <h2>Gaussmatic</h2>
+                        <br>
+                        <p>
+                            <b>Gaussmatic: Repotenciando los conocimientos matemáticos de manera divertida y tecnológica.</b>
+                            Este proyecto está diseñado para fortalecer las habilidades matemáticas de los estudiantes a través de actividades lúdicas y el uso de herramientas tecnológicas. Mediante juegos, retos interactivos y plataformas digitales, los alumnos desarrollan el pensamiento lógico, la resolución de problemas y la creatividad. Gaussmatic convierte el aprendizaje de las matemáticas en una experiencia dinámica y motivadora, promoviendo la participación activa y el entusiasmo por los números en un entorno moderno e innovador.
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+
+            <br>
+            <div class="row">
+                <div class="col-lg-6 my-auto">
+                    <div class="margin-infra">
+                        <h2>Patriotismo y Cívica</h2>
+                        <br>
+                        <p>
+                            <b>Patriotismo y Cívica: Formación de identidad y valores ciudadanos.</b> El área de Patriotismo y Cívica es fundamental para fortalecer el sentido de pertenencia, el respeto por los símbolos nacionales y la identidad patriótica en nuestros estudiantes. A través de actividades como el desfile escolar, los alumnos participan activamente en la conmemoración de fechas importantes, desarrollando orgullo por su país y compromiso con la sociedad. Estas experiencias promueven valores como el respeto, la responsabilidad y la solidaridad, formando ciudadanos conscientes de sus deberes y derechos, y fomentando el amor por la patria y la convivencia democrática.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-6 my-auto">
+                    <div class="margin-infra">
+                        <div class="sedes_content_slider owl-carousel owl-theme">
+                            <div class="sedes_slider">
+                                <img src="./public/img/web/desfile1.jpg" alt="Imagen 1">
+                            </div>
+                            <div class="sedes_slider">
+                                <img src="./public/img/web/desfile2.jpg" alt="Imagen 2">
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
 
         </div>
     </section>
@@ -383,7 +490,7 @@
                         items: 1
                     }
                 },
-                navText: ["<span style='font-size:2rem;'>&#10094;</span>", "<span style='font-size:2rem;'>&#10095;</span>"]
+                navText: ["<span style='font-size:1rem;'>&#10094;</span>", "<span style='font-size:1rem;'>&#10095;</span>"]
             });
         });
     </script>

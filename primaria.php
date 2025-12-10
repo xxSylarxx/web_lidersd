@@ -74,7 +74,7 @@
                         <div class="decoration-circle decoration-1"></div>
                         <div class="decoration-circle decoration-2"></div>
                         <div class="welcome-image2-card d-flex justify-content-center align-items-center">
-                            <img src="./public/img/web/portada_primaria.png" alt="Colegio Santo Domingo El Líder" class="welcome-image2">
+                            <img src="./public/img/web/portada_primaria.jpg" alt="Colegio Santo Domingo El Líder" class="welcome-image2">
                         </div>
                     </div>
                 </div>
@@ -98,52 +98,22 @@
                         <div class="owl-carousel owl-theme">
                             <div class="blog_item">
                                 <div class="blog_image">
-                                    <img class="img-fluid border" src="./public/img/galeria/fachada.jpeg" onclick="showFoto(0);">
+                                    <img class="img-fluid border" src="./public/img/web/infra_primaria1.jpg" onclick="showFoto(0);">
                                 </div>
                             </div>
                             <div class="blog_item">
                                 <div class="blog_image">
-                                    <img class="img-fluid border" src="./public/img/galeria/fachada.jpeg" onclick="showFoto(1);">
+                                    <img class="img-fluid border" src="./public/img/web/infra_primaria2.jpg" onclick="showFoto(1);">
                                 </div>
                             </div>
                             <div class="blog_item">
                                 <div class="blog_image">
-                                    <img class="img-fluid border" src="./public/img/galeria/fachada.jpeg" onclick="showFoto(2);">
+                                    <img class="img-fluid border" src="./public/img/web/infra_inicial3.jpg" onclick="showFoto(2);">
                                 </div>
                             </div>
                             <div class="blog_item">
                                 <div class="blog_image">
                                     <img class="img-fluid border" src="./public/img/galeria/fachada.jpeg" onclick="showFoto(3);">
-                                </div>
-                            </div>
-                            <div class="blog_item">
-                                <div class="blog_image">
-                                    <img class="img-fluid border" src="./public/img/galeria/fachada.jpeg" onclick="showFoto(4);">
-                                </div>
-                            </div>
-                            <div class="blog_item">
-                                <div class="blog_image">
-                                    <img class="img-fluid border" src="./public/img/galeria/fachada.jpeg" onclick="showFoto(5);">
-                                </div>
-                            </div>
-                            <div class="blog_item">
-                                <div class="blog_image">
-                                    <img class="img-fluid border" src="./public/img/galeria/fachada.jpeg" onclick="showFoto(6);">
-                                </div>
-                            </div>
-                            <div class="blog_item">
-                                <div class="blog_image">
-                                    <img class="img-fluid border" src="./public/img/galeria/fachada.jpeg" onclick="showFoto(7);">
-                                </div>
-                            </div>
-                            <div class="blog_item">
-                                <div class="blog_image">
-                                    <img class="img-fluid border" src="./public/img/galeria/fachada.jpeg" onclick="showFoto(8);">
-                                </div>
-                            </div>
-                            <div class="blog_item">
-                                <div class="blog_image">
-                                    <img class="img-fluid border" src="./public/img/galeria/fachada.jpeg" onclick="showFoto(9);">
                                 </div>
                             </div>
                         </div>
@@ -263,7 +233,7 @@
     <div class="modal fade" id="modalFoto" tabindex="-1" aria-labelledby="modalFotoLabel" aria-hidden="true">
         <div class="modal-dialog modal-lg">
             <div class="modal-content" style="padding:0px;">
-                <div class="modal-body">
+                <div class="modal-body d-flex justify-content-center">
                     <img class="img-fluid rounded" src="" id="fotoview">
                 </div>
             </div>
@@ -296,15 +266,9 @@
         // Función para mostrar la foto en el modal
         function showFoto(item) {
             let list = [
-                './public/img/galeria/fachada.jpeg',
-                './public/img/galeria/fachada.jpeg',
-                './public/img/galeria/fachada.jpeg',
-                './public/img/galeria/fachada.jpeg',
-                './public/img/galeria/fachada.jpeg',
-                './public/img/galeria/fachada.jpeg',
-                './public/img/galeria/fachada.jpeg',
-                './public/img/galeria/fachada.jpeg',
-                './public/img/galeria/fachada.jpeg',
+                './public/img/web/infra_primaria1.jpg',
+                './public/img/web/infra_primaria2.jpg',
+                './public/img/web/infra_inicial3.jpg',
                 './public/img/galeria/fachada.jpeg'
             ];
             $('#fotoview').attr('src', list[item]);
