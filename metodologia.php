@@ -140,9 +140,12 @@
         }
 
         .sedes_slider img {
-            width: 100%;
-            height: auto;
-            border-radius: 10px;
+              width: 100%;
+              height: 320px;
+              object-fit: cover;
+              border-radius: 10px;
+              display: block;
+              margin: 0 auto;
         }
 
         #proyectos>.container-fluid {
