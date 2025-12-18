@@ -506,7 +506,8 @@
                     </div>
                 </div>
                 <div class="row mt-4">
-                    <div class="col"><iframe class="shadow-lg" src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3904.7804288506436!2d-77.05496552423405!3d-11.850637488371131!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2s57W44WXX%2BP2X!5e0!3m2!1ses!2spe!4v1765185453906!5m2!1ses!2spe" width="100%" height="500" style="border: 20px solid #fff; border-radius: 5px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    <div class="col">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3904.779788907862!2d-77.0550177892052!3d-11.850682238232707!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105d9fa896d1159%3A0x9db2e5394a9046f8!2sColegio%20Santo%20Domingo%20El%20Lider!5e0!3m2!1ses!2spe!4v1766056405325!5m2!1ses!2spe" width="100%" height="500" style="border: 20px solid #fff; border-radius: 5px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                         <!--  <iframe class="shadow-lg" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d487.5100393186484!2d-76.9940203!3d-12.1749352!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105b9cc99ff9ae1%3A0xba239e2482b3a265!2sAv.%20Guardia%20Civil%20Sur%20867%2C%20Chorrillos%2015056!5e0!3m2!1ses-419!2spe!4v1700495464385!5m2!1ses-419!2spe" width="100%" height="500" style="border: 20px solid #fff; border-radius: 5px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> -->
                     </div>
                 </div>

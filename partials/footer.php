@@ -114,7 +114,9 @@
                 <div style="margin-top:1rem;line-height:1.8">
                     <!--       <div style="color:var(--color8);">📍 Mz. N lote 4 Urbanización Los Ficus de Carabayllo, 5ta Etapa carabayllo</div> -->
                     <div class="d-flex justify-content-start py-1" style="color:var(--color8);"><i class="fas fa-location-arrow pt-2"></i>&nbsp;&nbsp;Mz. N lote 4 Urbanización Los Ficus de Carabayllo, 5ta Etapa carabayllo</div>
-                    <div class="d-flex justify-content-start py-1" style="color:var(--color8);"><i class="fas fa-clock pt-2"></i>&nbsp;&nbsp;Horario de Atención: Lunes a Viernes de 7:30 a.m. a 3:30 p.m.</div>
+                    <div class="d-flex justify-content-start py-1" style="color:var(--color8);"><i class="fas fa-clock pt-2"></i>&nbsp;&nbsp;Horario de Atención: Lunes a Viernes<br> 8:00 a.m. a 2:00 p.m. / 2:40 p.m. a 5:00 p.m.<br>
+                    Sábados: 8:00 - -1:00 p.m.
+                </div>
                     <div class="d-flex justify-content-start py-1" style="color:var(--color8);"><a href="https://wa.me/+51951352404"><i class="fab fa-whatsapp pt-2"></i>&nbsp;&nbsp;951 352 404</div></a>
                 </div>
             </div>

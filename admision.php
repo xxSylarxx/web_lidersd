@@ -109,11 +109,11 @@
                                 <li><i class="fas fa-check-circle me-2" style="color:var(--color1);"></i>
                                     <span>Completa la inscripción con los datos del padre de familia o apoderado.</span>
                                 </li>
-                                <li><i class="fas fa-check-circle me-2" style="color:var(--color1);"></i>
+                                <!-- <li><i class="fas fa-check-circle me-2" style="color:var(--color1);"></i>
                                     <span>Realiza el pago de cuota de ingreso de <b>S/. 70</b>.</span>
-                                </li>
+                                </li> -->
                                 <li><i class="fas fa-check-circle me-2" style="color:var(--color1);"></i>
-                                    <span>Se programará la entrevista con el Área de Psicología.</span>
+                                    <span>Se programará la entrevista con el Área de Psicopedagógico.</span>
                                 </li>
                             </ul>
                         </div>

@@ -10,4 +10,5 @@
         </video>
     </div>
     <br>
+    <div class="text-center">Registra tu visita <a href="https://wa.me/+51951353802" target="_blank" rel="noopener"><u>AQU&Iacute;</u></a>&nbsp;</div>
 </div>
