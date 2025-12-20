@@ -51,7 +51,7 @@
         <div class="container-fluid header-inner">
             <a class="navbar-brand brand" href="./">
                 <img class="site-logo" src="./public/img/icons/escudo.png" alt="Santo Domingo El Líder logo" width="56" height="56">
-                <span class="brand-text">Santo Domingo <span>El Líder</span></span>
+                <span class="brand-text">Santo Domingo <span>, El Líder</span></span>
             </a>
 
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">

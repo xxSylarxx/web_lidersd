@@ -85,10 +85,10 @@
                 <div class="mx-4">
                     <strong>Enlaces Rápidos</strong>
                     <div style="display:grid;gap:.5rem;margin-top:1rem">
-                        <a href="#about">Nosotros</a>
-                        <a href="#propuesta">Propuesta educativa</a>
-                        <a href="#niveles">Niveles</a>
-                        <a href="#admissions">Admisión 2026</a>
+                        <a href="./historia.php">Nosotros</a>
+                        <a href="./metodologia.php">Propuesta educativa</a>
+                        <a href="./inicial.php">Niveles</a>
+                        <a href="./admision.php">Admisión 2026</a>
                     </div>
                 </div>
             </div>
