@@ -59,6 +59,11 @@
             color: var(--color5);
             text-align: justify;
         }
+         @media (max-width: 768px) {
+            .portada .titleContainer .title1 {
+                font-size: 2rem;
+            }
+        }
     </style>
 </head>
 

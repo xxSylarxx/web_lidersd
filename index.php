@@ -118,8 +118,31 @@
         #carouselExampleIndicators .carousel-control-next {
             display: none;
         }
+        
+        /* Altura del carousel responsive */
+        #carouselExampleIndicators .carousel-item img {
+            height: 600px;
+            object-fit: cover;
+        }
+
+        @media (max-width: 991px) {
+            #carouselExampleIndicators .carousel-item img {
+                height: auto;
+                object-fit: initial;
+            }
+            
+            #carouselExampleIndicators .carousel-controls-bottom {
+                bottom: 25px;
+                gap: 18px;
+            }
+        }
 
         @media (max-width: 768px) {
+            #carouselExampleIndicators .carousel-item img {
+                height: auto;
+                object-fit: initial;
+            }
+            
             #carouselExampleIndicators .carousel-controls-bottom {
                 bottom: 20px;
                 gap: 15px;
@@ -128,6 +151,33 @@
             #carouselExampleIndicators .carousel-control-custom {
                 width: 38px;
                 height: 38px;
+            }
+        }
+        
+        @media (max-width: 576px) {
+            #carouselExampleIndicators .carousel-item img {
+                height: auto;
+                object-fit: initial;
+            }
+            
+            #carouselExampleIndicators .carousel-controls-bottom {
+                bottom: 15px;
+                gap: 12px;
+            }
+            
+            #carouselExampleIndicators .carousel-control-custom {
+                width: 35px;
+                height: 35px;
+            }
+            
+            #carouselExampleIndicators .carousel-indicators {
+                padding: 8px;
+                gap: 8px;
+            }
+            
+            #carouselExampleIndicators .carousel-indicators button {
+                width: 10px;
+                height: 10px;
             }
         }
 
@@ -253,10 +303,10 @@
 
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img src="./public/img/portadas/slider1.jpg" class="d-block w-100" height="600" style="object-fit: cover;">
+                    <img src="./public/img/portadas/slider1.jpg" class="d-block w-100">
                 </div>
                 <div class="carousel-item">
-                    <img src="./public/img/portadas/slider2.jpg" class="d-block w-100" height="600" style="object-fit: cover;">
+                    <img src="./public/img/portadas/slider2.jpg" class="d-block w-100">
                 </div>
             </div>
 
@@ -278,7 +328,7 @@
             <div class="container py-4">
                 <div class="row g-5 align-items-center">
                     <!-- Columna de Contenido -->
-                    <div class="col-lg-6 order-2 order-lg-1">
+                    <div class="col-lg-6">
                         <!-- Badge decorativo -->
                         <!-- <div class="welcome-badge d-inline-flex align-items-center gap-2 mb-3">
                             <i class="fas fa-graduation-cap"></i>
@@ -308,7 +358,7 @@
                             <i class="fa fa-arrow-circle-right" aria-hidden="true"></i>
                         </a>
                     </div> <!-- Columna de Imagen -->
-                    <div class="col-lg-6 order-1 order-lg-2">
+                    <div class="col-lg-6">
                         <div class="image-wrapper">
                             <!-- Elementos decorativos -->
                             <div class="decoration-circle decoration-1"></div>
@@ -436,15 +486,15 @@
                             </div>
                             <div class="details">
                                 <div class="row d-flex">
-                                    <div class="col-lg-8">
+                                    <div class="col-8">
                                         <div class="mx-3" style="display:flex;justify-content:center;flex-direction:column;">
                                             <h3>Visitas Guiadas</h3>
                                             <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dignissimos, minus aperiam adipisci exercitationem.</p> -->
                                             <a class="btn-pub" href="view.php?id=1">Ver Más</a>
                                         </div>
                                     </div>
-                                    <div class="col-lg-4 d-flex justify-content-end align-items-start">
-                                        <img class="d-block mx-4" src="./public/img/icons/escudo.png" width="60%" alt="">
+                                    <div class="col-4 d-flex justify-content-end align-items-start">
+                                        <img class="d-block mx-4 escudo-badge" src="./public/img/icons/escudo.png" alt="">
                                     </div>
                                 </div>
                             </div>
@@ -457,15 +507,15 @@
                             </div>
                             <div class="details">
                                 <div class="row d-flex">
-                                    <div class="col-lg-8">
+                                    <div class="col-8">
                                         <div class="mx-3" style="display:flex;justify-content:center;flex-direction:column;">
                                             <h3>Matrícula 2026</h3>
                                             <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dignissimos, minus aperiam adipisci exercitationem.</p> -->
                                             <a class="btn-pub" href="view.php?id=2">Ver Más</a>
                                         </div>
                                     </div>
-                                    <div class="col-lg-4 d-flex justify-content-end align-items-start">
-                                        <img class="d-block mx-4" src="./public/img/icons/escudo.png" width="60%" alt="">
+                                    <div class="col-4 d-flex justify-content-end align-items-start">
+                                        <img class="d-block mx-4 escudo-badge" src="./public/img/icons/escudo.png"  alt="">
                                     </div>
                                 </div>
                             </div>
@@ -478,15 +528,15 @@
                             </div>
                             <div class="details">
                                 <div class="row d-flex">
-                                    <div class="col-lg-8">
+                                    <div class="col-8">
                                         <div class="mx-3" style="display:flex;justify-content:center;flex-direction:column;">
                                             <h3>Boletín Informativo</h3>
                                             <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dignissimos, minus aperiam adipisci exercitationem.</p> -->
                                             <a class="btn-pub" href="view.php?id=3">Ver Más</a>
                                         </div>
                                     </div>
-                                    <div class="col-lg-4 d-flex justify-content-end align-items-start">
-                                        <img class="d-block mx-4" src="./public/img/icons/escudo.png" width="60%" alt="">
+                                    <div class="col-4 d-flex justify-content-end align-items-start">
+                                        <img class="d-block mx-4 escudo-badge" src="./public/img/icons/escudo.png" alt="">
                                     </div>
                                 </div>
                             </div>

@@ -44,6 +44,7 @@
         .blog_section .blog_content .owl-nav .owl-next span { font-size: 25px; margin-top: -5px; display: inline-block; }
         #infraestructura h2::after { background: white; }
         @media only screen and (max-width: 577px) { .blog_section .owl-nav .owl-prev { left: -17px !important; } .blog_section .owl-nav .owl-next { right: -17px !important; } }
+        @media (max-width: 768px) { .portada .titleContainer .title1 { font-size: 2rem; } }
     </style>
 </head>
 <body>

@@ -64,7 +64,7 @@
                 <img src="./public/img/icons/escudo2.png" width="80" alt="escudo2">
                 <strong style="font-size:1.2rem;font-family:'Playfair Display',serif">Santo Domingo, El Líder</strong>
                 <p class="muted" style="margin-top:.5rem">Formando líderes con valores, excelencia académica y compromiso social.</p>
-                <div style="margin-top:1rem;display:flex;gap:.8rem">
+                <div class="div-footer-sociales" style="margin-top:1rem;display:flex;gap:.8rem">
                     <div class="d-flex justify-content-between">
                         <div class="col-lg-3">
                             <div style="width: 40px;height: 40px;-moz-border-radius: 50%;-webkit-border-radius: 50%;border-radius: 50%;border:solid 1px var(--color8);font-size:25px;"><a class="social-footer" href="https://www.facebook.com/santodomingolider" target="_blank"><i class="fab fa-facebook " style="font-size:1.2rem;margin-top:10px;"></i></a></div>
@@ -188,3 +188,78 @@
     });
     
 </script>
+
+<style>
+    /* Estilos responsive para el footer */
+    @media (max-width: 991px) {
+        footer .col-lg-4 {
+            margin-bottom: 30px;
+        }
+        
+        footer .col-lg-4:last-child {
+            margin-bottom: 0;
+        }
+    }
+    
+    @media (max-width: 768px) {
+        footer .container .row {
+            text-align: center;
+        }
+        
+        footer .col-lg-4 {
+            margin-bottom: 40px;
+        }
+        
+        footer .col-lg-4 img {
+            margin: 0 auto;
+            display: block;
+        }
+        
+        footer .d-flex.justify-content-between {
+            justify-content: center !important;
+        }
+        
+        footer .d-flex.justify-content-start {
+            justify-content: center !important;
+        }
+        
+        footer .mx-4 {
+            margin-left: 0 !important;
+            margin-right: 0 !important;
+        }
+        
+        footer .floating-btn1 {
+            width: 100%;
+            max-width: 300px;
+            margin: 0 auto 20px;
+            display: block;
+        }
+    }
+    
+    @media (max-width: 576px) {
+        footer strong {
+            font-size: 1.1rem;
+        }
+        
+        footer .muted {
+            font-size: 0.9rem;
+        }
+        
+        footer .social-footer i {
+            font-size: 1rem !important;
+        }
+        
+        footer div[style*="width: 40px"] {
+            width: 35px !important;
+            height: 35px !important;
+        }
+        
+        footer div[style*="width: 40px"] i {
+            margin-top: 8px !important;
+        }
+        
+        footer .d-flex.py-1 {
+            font-size: 0.9rem;
+        }
+    }
+</style>

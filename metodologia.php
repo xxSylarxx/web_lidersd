@@ -85,6 +85,12 @@
         .welcome-image2-card:hover .welcome-image2 {
             transform: scale(1.05);
         }
+        
+        @media (max-width: 768px) {
+            .portada .titleContainer .title1 {
+                font-size: 2rem;
+            }
+        }
     </style>
 </head>
 
