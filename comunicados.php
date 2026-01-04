@@ -58,6 +58,12 @@
             padding-top: 1rem;
             padding-bottom: 3rem;
         }
+        
+        @media (max-width: 768px) {
+            .portada .titleContainer .title1 {
+                font-size: 2rem;
+            }
+        }
     </style>
 </head>
 
@@ -91,14 +97,14 @@
                         </div>
                         <div class="details">
                             <div class="row d-flex">
-                                <div class="col-lg-8">
+                                <div class="col-8">
                                     <div class="mx-3" style="display:flex;justify-content:center;flex-direction:column;">
                                         <h3>Visitas Guiadas</h3>
                                         <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dignissimos, minus aperiam adipisci exercitationem.</p> -->
                                         <a class="btn-pub" href="view.php?id=1">Ver Más</a>
                                     </div>
                                 </div>
-                                <div class="col-lg-4 d-flex justify-content-end align-items-start">
+                                <div class="col-4 d-flex justify-content-end align-items-start">
                                     <img class="d-block mx-4" src="./public/img/icons/escudo.png" width="60%" alt="">
                                 </div>
                             </div>
@@ -112,14 +118,14 @@
                         </div>
                         <div class="details">
                             <div class="row d-flex">
-                                <div class="col-lg-8">
+                                <div class="col-8">
                                     <div class="mx-3" style="display:flex;justify-content:center;flex-direction:column;">
                                         <h3>Matrícula 2026</h3>
                                         <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dignissimos, minus aperiam adipisci exercitationem.</p> -->
                                         <a class="btn-pub" href="view.php?id=2">Ver Más</a>
                                     </div>
                                 </div>
-                                <div class="col-lg-4 d-flex justify-content-end align-items-start">
+                                <div class="col-4 d-flex justify-content-end align-items-start">
                                     <img class="d-block mx-4" src="./public/img/icons/escudo.png" width="60%" alt="">
                                 </div>
                             </div>
@@ -133,14 +139,14 @@
                         </div>
                         <div class="details">
                             <div class="row d-flex">
-                                <div class="col-lg-8">
+                                <div class="col-8">
                                     <div class="mx-3" style="display:flex;justify-content:center;flex-direction:column;">
                                         <h3>Boletín Informativo</h3>
                                         <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dignissimos, minus aperiam adipisci exercitationem.</p> -->
                                         <a class="btn-pub" href="view.php?id=3">Ver Más</a>
                                     </div>
                                 </div>
-                                <div class="col-lg-4 d-flex justify-content-end align-items-start">
+                                <div class="col-4 d-flex justify-content-end align-items-start">
                                     <img class="d-block mx-4" src="./public/img/icons/escudo.png" width="60%" alt="">
                                 </div>
                             </div>

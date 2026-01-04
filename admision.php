@@ -64,6 +64,12 @@
             width: auto;
             animation: scaleEffect 4s infinite ease-in-out;
         }
+        
+        @media (max-width: 768px) {
+            .portada .titleContainer .title1 {
+                font-size: 2rem;
+            }
+        }
     </style>
 </head>
 

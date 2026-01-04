@@ -25,6 +25,94 @@
     header .barsup .mininav .mininav-item {
         margin: 0 10px;
     }
+
+    /* Responsive Styles */
+    @media (max-width: 991px) {
+        header .barsup .mininav a span {
+            display: none;
+        }
+        
+        header .barsup {
+            padding: 0px 3%;
+        }
+        
+        header .barsup .mininav .mininav-item {
+            margin: 0 5px;
+        }
+    }
+
+    @media (max-width: 767px) {
+        /* Ajustar barra superior en móviles - mantener solo iconos */
+        header .barsup {
+            padding: 0px 2%;
+        }
+        
+        header .barsup .mininav .mininav-item {
+            margin: 0 3px;
+        }
+        
+        header .barsup .mininav a i {
+            font-size: 1rem;
+        }
+        
+        /* Ajustar logo y brand */
+        .site-logo {
+            width: 40px !important;
+        }
+        
+        .brand {
+            font-size: 1.1rem !important;
+        }
+        
+        .brand-text {
+            font-size: 0.9rem;
+        }
+        
+        .header-inner {
+            padding: 0.5rem 1rem !important;
+        }
+    }
+
+    @media (max-width: 576px) {
+        .site-logo {
+            width: 36px !important;
+        }
+        
+        .brand {
+            font-size: 1rem !important;
+        }
+    }
+    
+    /* Estilos para dropdowns en modo responsive */
+    @media (max-width: 991px) {
+        .navbar-collapse .dropdown-menu {
+            position: static !important;
+            float: none;
+            width: auto;
+            margin-top: 0;
+            background-color: transparent;
+            border: 0;
+            box-shadow: none;
+        }
+        
+        .navbar-collapse .dropdown-item {
+           /*  padding: 0.5rem 1.5rem 0.5rem 3rem; */
+            color: var(--color6);
+            border-left: 3px solid var(--color9);
+           /*  margin-left: 1rem; */
+        }
+        
+        .navbar-collapse .dropdown-item:hover {
+            background-color: var(--color9);
+            color: var(--color1);
+        }
+        header .navbar .nav-item {
+            margin: 7px 5px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+    }
 </style>
 <header>
     <div class="barsup">
@@ -39,7 +127,7 @@
                     <div class="mininav-item my-2"><a href="https://www.tiktok.com/@santodomingolider" target="_blank"> <i class="fab fa-tiktok"></i> <span class="ms-2">Tik Tok</span> </a></div>
                 </div>
                 <div class="col-6 d-flex justify-content-end align-items-center mininav">
-                    <div class="mininav-item my-2"><a href="mailto:" target="_blank"> <i class="far fa-envelope"></i> <span class="ms-2">administracion@lidersd.edu.pe</span> </a></div>
+                    <div class="mininav-item my-2"><a href="mailto:" target="_blank"> <i class="far fa-envelope"></i> <span class="ms-2">admision@lidersd.edu.pe</span> </a></div>
                     <div class="mininav-item my-2"><a href="https://wa.me/+51951353802" target="_blank"> <i class="fab fa-whatsapp"></i> <span class="ms-2">951 352 404</span> </a></div>
                     <div class="mininav-item my-2"><a href="https://lidersd.cubicol.pe/principal/login" target="_blank"> <img src="./public/img/icons/cubo2.png" alt="logo-cubicol" width="20"> <span class="ms-2">Intranet</span> </a></div>
                 </div>
@@ -51,7 +139,7 @@
         <div class="container-fluid header-inner">
             <a class="navbar-brand brand" href="./">
                 <img class="site-logo" src="./public/img/icons/escudo.png" alt="Santo Domingo El Líder logo" width="56" height="56">
-                <span class="brand-text">Santo Domingo <span>El Líder</span></span>
+                <span class="brand-text">Santo Domingo <span>, El Líder</span></span>
             </a>
 
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">

@@ -25,6 +25,7 @@
         .portada .titleContainer { background: rgb(0 0 0 / 40%); position: absolute; padding-left: 10%; left: 0; right: 0; display: flex; justify-content: start; align-items: flex-end; height: 100%; padding-bottom: 3%; }
         .portada .titleContainer .title1 { font-size: 3rem; color: #fff; padding-left: 10px; }
         .portada img { width: 100%; height: 350px; object-fit: cover; object-position: center 25%; }
+        @media (max-width: 768px) { .portada .titleContainer .title1 { font-size: 2rem; } }
     </style>
 </head>
 <body>

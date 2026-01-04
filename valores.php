@@ -104,6 +104,12 @@
             font-size: 1rem;
             color: var(--color6);
         }
+        
+        @media (max-width: 768px) {
+            .portada .titleContainer .title1 {
+                font-size: 2rem;
+            }
+        }
     </style>
 </head>
 

@@ -103,6 +103,10 @@
         strong {
             font-weight: bold;
         }
+        video {
+            width: 100%;
+            height: auto;
+        }
 
         @media (max-width: 750px) {
             .redes iframe {
