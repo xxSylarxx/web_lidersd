@@ -73,7 +73,7 @@
 } */
 
         .welcome-image2 {
-            width: 90%;
+            width: 98%;
             height: auto;
             display: block;
             object-fit: cover;
@@ -195,9 +195,10 @@
                 <!-- Columna de Contenido -->
                 <div class="col-lg-6 order-2 order-lg-1">
                     <div class="welcome-content">
-                        <p>
-                            En el Nivel Inicial del Colegio Santo Domingo El Líder, brindamos un entorno seguro, afectivo y estimulante donde nuestros dominguinos gigantes inician su camino educativo. Nuestro enfoque está centrado en el desarrollo integral de cada estudiante, promoviendo la curiosidad, la creatividad y el aprendizaje a través del juego, la exploración y experiencias significativas. Contamos con docentes especializadas y una propuesta pedagógica innovadora que fomenta valores, autonomía y habilidades sociales, sentando las bases para una formación sólida y feliz.
+                        <p>En el Nivel Inicial del Colegio Santo Domingo – El Líder, acompañamos a nuestros estudiantes en sus primeros años de formación, brindándoles un entorno seguro, afectivo y estimulante, donde cada niño y niña se siente valorado, respetado y motivado a aprender.
                         </p>
+                        <p>Nuestra propuesta educativa está orientada al desarrollo integral, fortaleciendo las dimensiones emocional, social, cognitiva y motora, a través de experiencias significativas que parten del juego, la exploración y el descubrimiento.</p>
+                        <p>Contamos con docentes especializadas, capacitadas para acompañar cada etapa del desarrollo infantil, promoviendo la autonomía, la creatividad, la curiosidad y el pensamiento crítico desde edades tempranas.</p>
                     </div>
                 </div>
                 <!-- Columna de Imagen -->

@@ -298,8 +298,10 @@
                         <!-- Contenido principal -->
                         <div class="welcome-content">
                             <p>
-                                La Institución Educativa Privada “Asociación Educativa Santo Domingo, el Líder” es una Institución Educativa que nace con el único propósito de formar integralmente a niños, niñas y adolescentes de los niveles de Inicial, Primaria y Secundaria, enmarcada en una educación de calidad, inclusiva y equitativa; garantizando a los padres de familia el logro de aprendizajes de acuerdo al Perfil de egreso, promoviendo la práctica de valores personales y sociales, y propiciando una cultura democrática en plenitud de paz y justicia.
+                                La Institución Educativa Privada Asociación Educativa Santo Domingo – El Líder forma parte del Consorcio Educativo Santo Domingo, con 45 años de trayectoria brindando educación de calidad.
                             </p>
+                            <p>Nuestra institución tiene como propósito la formación integral de estudiantes de los niveles de Inicial, Primaria y Secundaria, en un entorno educativo basado en la calidad académica, la inclusión y la equidad, garantizando el logro de aprendizajes de acuerdo al Perfil de Egreso.</p>
+                            <p>En el Colegio Santo Domingo – El Líder promovemos la práctica de valores, la convivencia armónica y una cultura democrática, formando estudiantes con liderazgo, responsabilidad social y visión global.</p>
                         </div>
 
                         <!-- Botón de acción -->

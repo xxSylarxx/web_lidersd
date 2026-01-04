@@ -294,6 +294,7 @@ footer .social-footer{
   line-height: 1.8;
   color: var(--color6);
   margin-bottom: 15px;
+  text-align: justify;
 }
 
 .welcome-content strong {
@@ -387,7 +388,7 @@ footer .social-footer{
 } */
 
 .welcome-image {
-  width: 60%;
+  width: 75%;
   height: auto;
   display: block;
   object-fit: cover;
