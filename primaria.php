@@ -82,6 +82,42 @@
             </div>
         </div>
     </section>
+    <section id="horario" class="py-5" style="background-color: #f8f9fa;">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 pb-4">
+                    <div class="d-flex justify-content-center">
+                        <h2 class="section-title">Horario de Clases</h2>
+                    </div>
+                    <!-- <p style="color:var(--color5);text-align:center;padding-top:.5rem;">
+                        Nuestros horarios están diseñados para garantizar un equilibrio entre aprendizaje, juego y descanso.
+                    </p> -->
+                </div>
+            </div>
+            <div class="row justify-content-center g-4">
+                <div class="col-md-4">
+                    <div class="card h-100 shadow-sm border-0" style="border-radius: 10px; overflow: hidden;">
+                        <div class="card-header text-white text-center py-3" style="background-color: var(--color2);">
+                            <h4 class="mb-0"><i class="fas fa-baby me-2"></i>Turno Mañana</h4>
+                        </div>
+                        <div class="card-body p-4">
+                            <p style="text-align: center;color:var(--color5);font-weight:bold;">Lunes a Viernes</p>
+                            <ul class="list-unstyled mb-0">
+                                <li class="mb-3 d-flex justify-content-center">
+                                    <i class="fas fa-clock text-primary me-2 mt-1"></i>
+                                    <!-- <strong>Entrada:</strong>  -->De 8:10 AM. a  01:45 PM.
+                                </li>
+                               <!--  <li class="mb-3">
+                                    <i class="fas fa-door-open text-danger me-2"></i>
+                                    <strong>Salida:</strong> 01:45 PM.
+                                </li> -->
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
     <section id="infraestructura">
         <!-- SECCIÓN DEL CARRUSEL -->
         <div class="container-fluid" style="background-color: #327DD7;">

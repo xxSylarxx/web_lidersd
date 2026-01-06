@@ -63,7 +63,7 @@
             <div class="col-lg-4">
                 <img src="./public/img/icons/escudo2.png" width="80" alt="escudo2">
                 <strong style="font-size:1.2rem;font-family:'Playfair Display',serif">Santo Domingo, El Líder</strong>
-                <p class="muted" style="margin-top:.5rem">Formando líderes con valores, excelencia académica y compromiso social.</p>
+                <p class="muted" style="margin-top:.5rem">"Formando Líderes Globales"</p>
                 <div class="div-footer-sociales" style="margin-top:1rem;display:flex;gap:.8rem">
                     <div class="d-flex justify-content-between">
                         <div class="col-lg-3">

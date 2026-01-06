@@ -118,7 +118,7 @@
         #carouselExampleIndicators .carousel-control-next {
             display: none;
         }
-        
+
         /* Altura del carousel responsive */
         #carouselExampleIndicators .carousel-item img {
             height: 600px;
@@ -130,7 +130,7 @@
                 height: auto;
                 object-fit: initial;
             }
-            
+
             #carouselExampleIndicators .carousel-controls-bottom {
                 bottom: 25px;
                 gap: 18px;
@@ -142,7 +142,7 @@
                 height: auto;
                 object-fit: initial;
             }
-            
+
             #carouselExampleIndicators .carousel-controls-bottom {
                 bottom: 20px;
                 gap: 15px;
@@ -153,28 +153,28 @@
                 height: 38px;
             }
         }
-        
+
         @media (max-width: 576px) {
             #carouselExampleIndicators .carousel-item img {
                 height: auto;
                 object-fit: initial;
             }
-            
+
             #carouselExampleIndicators .carousel-controls-bottom {
                 bottom: 15px;
                 gap: 12px;
             }
-            
+
             #carouselExampleIndicators .carousel-control-custom {
                 width: 35px;
                 height: 35px;
             }
-            
+
             #carouselExampleIndicators .carousel-indicators {
                 padding: 8px;
                 gap: 8px;
             }
-            
+
             #carouselExampleIndicators .carousel-indicators button {
                 width: 10px;
                 height: 10px;
@@ -396,6 +396,9 @@
                         <div class="d-flex justify-content-center">
                             <h2 class="section-title">Niveles</h2>
                         </div>
+                        <p style="color:var(--color5);text-align:center;padding-top:.5rem;font-size:1.3rem;">
+                            Conoce nuestra propuesta por niveles.
+                        </p>
                     </div>
                 </div>
                 <div class="row px-2  mt-4" id="pNiveles">
@@ -517,7 +520,7 @@
                                         </div>
                                     </div>
                                     <div class="col-4 d-flex justify-content-end align-items-start">
-                                        <img class="d-block mx-4 escudo-badge" src="./public/img/icons/escudo.png"  alt="">
+                                        <img class="d-block mx-4 escudo-badge" src="./public/img/icons/escudo.png" alt="">
                                     </div>
                                 </div>
                             </div>
