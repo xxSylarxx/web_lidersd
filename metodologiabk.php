@@ -114,10 +114,7 @@
                 <div class="col-lg-12 order-2 order-lg-1">
                     <div class="welcome-content">
                         <p>
-                           La metodología del Colegio <b>Santo Domingo, El Líder</b> reconoce que cada estudiante posee <b>habilidades, talentos y formas propias de aprender,</b> por lo que promovemos una enseñanza que atiende la diversidad y favorece el desarrollo integral.</p>
-                           <p>Nuestro enfoque pedagógico integra estrategias y actividades que estimulan distintas capacidades cognitivas, creativas, sociales y emocionales, a través de <b>proyectos, dinámicas participativas y experiencias significativas,</b> orientadas al aprendizaje activo.</p>
-                           <p>Acompañamos a nuestros estudiantes en el descubrimiento y fortalecimiento de sus habilidades, promoviendo el <b>pensamiento crítico, la creatividad, la autonomía y el compromiso con su propio aprendizaje,</b> en un entorno inclusivo, motivador y respetuoso.</p>
-                           <p>Esta metodología permite que cada estudiante desarrolle su máximo potencial, preparándose para afrontar los retos académicos y personales con <b>liderazgo y visión global.</b></p>
+                            La metodología del Colegio Santo Domingo El Líder está basada en el desarrollo de las inteligencias múltiples, reconociendo que cada estudiante posee talentos y formas únicas de aprender. Nuestro enfoque pedagógico integra actividades que estimulan la inteligencia lingüística, lógico-matemática, espacial, musical, corporal, interpersonal, intrapersonal y naturalista. A través de proyectos, dinámicas y experiencias personalizadas, ayudamos a los alumnos a descubrir y potenciar sus habilidades, promoviendo el pensamiento crítico, la creatividad y la autonomía. Esta metodología favorece el crecimiento integral, permitiendo que cada estudiante alcance su máximo potencial en un ambiente inclusivo y motivador.</p>
                     </div>
                 </div>
                 <!-- Columna de Imagen -->

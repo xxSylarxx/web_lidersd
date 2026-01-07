@@ -20,7 +20,7 @@
     <link rel="stylesheet" href="./public/css/web.css">
     <link rel="stylesheet" href="./public/css/networks.css">
     <link rel="stylesheet" href="./public/css/card-animation.css">
-    <link rel="stylesheet" href="./public/css/modal-contacto.css">
+        <link rel="stylesheet" href="./public/css/modal-contacto.css">
 
     <!-- Font Awesome CSS -->
     <link rel="stylesheet" href="./libs/font-awesone/css/all.min.css">
@@ -60,8 +60,7 @@
             object-fit: cover;
             object-position: center 25%;
         }
-
-        #identidad {
+        #identidad{
             padding-top: 3rem;
             padding-bottom: 3rem;
         }
@@ -156,7 +155,7 @@
 
         #principios span {
             font-family: "Montserrat", sans-serif;
-            font-size: 1.2rem !important;
+            font-size: 1.2rem!important;
         }
 
         .principle-box {
@@ -205,20 +204,18 @@
         <div class="container">
             <div class="row d-flex justify-content-center">
                 <div class="col-lg-10">
+                    <p style="color:var(--color5); text-align:justify;">La Institución Educativa Privada “Asociación Educativa Santo Domingo, el Líder” es una Institución Educativa que nace con el único propósito de formar integralmente a niños, niñas y adolescentes de los niveles de Inicial, Primaria y Secundaria, enmarcada en una educación de calidad, inclusiva y equitativa; garantizando a los padres de familia el logro de aprendizajes de acuerdo al Perfil de egreso, promoviendo la práctica de valores personales y sociales, y propiciando una cultura democrática en plenitud de paz y justicia.</p>
                     <p style="color:var(--color5); text-align:justify;">
-                        La <b>Institución Educativa Privada Asociación Educativa Santo Domingo, El Líder</b> orienta su labor a la formación integral de niños, niñas y adolescentes de los niveles de Inicial, Primaria y Secundaria, brindando una <b>educación de calidad, inclusiva y equitativa,</b> acorde con las exigencias del mundo actual.
+                        Los agentes educativos nos encontramos comprometidos a esforzarnos, actualizarnos, capacitarnos, para aplicar estrategias que ayuden a mejorar la calidad educativa en nuestra Institución Educativa.
+                        La Institución Educativa se proyectará a la comunidad a través de actividades sociales, culturales, científicas y deportivas.
+                        Nuestro trabajo se resume en el lema: “Estudiar, practicar y reflexionar para mejorar continuamente y triunfar por los siglos de los siglos, Amén”.
                     </p>
-                    <p style="color:var(--color5); text-align:justify;">Nuestra institución promueve el logro de aprendizajes de acuerdo con el Perfil de Egreso, fortaleciendo la práctica de valores personales y sociales, y fomentando una convivencia basada en el respeto, la responsabilidad y la participación democrática, en un entorno de paz y justicia.</p>
-                    <p style="color:var(--color5); text-align:justify;">El compromiso permanente de nuestra comunidad educativa se refleja en la mejora continua, la actualización constante y la aplicación de estrategias pedagógicas que elevan la calidad del servicio educativo. Acompañamos a nuestros estudiantes en su proceso formativo, impulsándolos a desarrollar habilidades académicas, personales y sociales que les permitan construir su proyecto de vida con autonomía y liderazgo.</p>
-                    <p style="color:var(--color5); text-align:justify;">Nuestra identidad se sustenta en una educación que forma personas íntegras, reflexivas y preparadas para afrontar los retos del presente y del futuro.</p>
                 </div>
             </div>
             <div class="row d-flex justify-content-center py-4">
                 <div class="col-lg-8">
                     <div style="text-align:center;">
-                        <span style="color:var(--color5);font-weight:600;font-size:1.5rem;">SANTO DOMINGO, EL LÍDER <br>
-                            FORMANDO LÍDERES GLOBALES
-                        </span>
+                        <span style="color:var(--color5);font-weight:600;font-size:1.5rem;">DISCIPLINA, PERSEVERANCIA Y REFLEXIÓN. “SANTO DOMINGO, EL LIDER” ¡LA CLAVE PARA LOGRAR TUS METAS!</span>
                     </div>
                 </div>
             </div>

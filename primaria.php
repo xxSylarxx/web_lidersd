@@ -1,5 +1,6 @@
 <!doctype html>
 <html lang="es">
+
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -23,30 +24,156 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
     <style>
-        .portada h2 { font-family: "Montserrat", sans-serif; }
-        .portada { position: relative; }
-        .portada .titleContainer { background: rgb(0 0 0 / 40%); position: absolute; padding-left: 10%; left: 0; right: 0; display: flex; justify-content: start; align-items: flex-end; height: 100%; padding-bottom: 3%; }
-        .portada .titleContainer .title1 { font-size: 3rem; color: #fff; padding-left: 10px; }
-        .portada img { width: 100%; height: 350px; object-fit: cover; object-position: center 25%; }
+        .portada h2 {
+            font-family: "Montserrat", sans-serif;
+        }
+
+        .portada {
+            position: relative;
+        }
+
+        .portada .titleContainer {
+            background: rgb(0 0 0 / 40%);
+            position: absolute;
+            padding-left: 10%;
+            left: 0;
+            right: 0;
+            display: flex;
+            justify-content: start;
+            align-items: flex-end;
+            height: 100%;
+            padding-bottom: 3%;
+        }
+
+        .portada .titleContainer .title1 {
+            font-size: 3rem;
+            color: #fff;
+            padding-left: 10px;
+        }
+
+        .portada img {
+            width: 100%;
+            height: 350px;
+            object-fit: cover;
+            object-position: center 25%;
+        }
+
         /* Card de imagen */
-        .welcome-image2-card { position: relative; z-index: 1; transition: all 0.4s ease; }
-        .welcome-image2 { width: 90%; height: auto; display: block; object-fit: cover; border-radius: 15px; transition: transform 0.4s ease; }
-        .welcome-image2-card:hover .welcome-image2 { transform: scale(1.05); }
+        .welcome-image2-card {
+            position: relative;
+            z-index: 1;
+            transition: all 0.4s ease;
+        }
+
+        .welcome-image2 {
+            width: 90%;
+            height: auto;
+            display: block;
+            object-fit: cover;
+            border-radius: 15px;
+            transition: transform 0.4s ease;
+        }
+
+        .welcome-image2-card:hover .welcome-image2 {
+            transform: scale(1.05);
+        }
+
         /* Estilos del carousel */
-        .blog_section .blog_content .blog_item { margin-bottom: 30px; position: relative; border-radius: 2px; overflow: hidden; }
-        .blog_section .blog_content .blog_item:hover .blog_image img { transform: scale(1.1); border-radius: 12px; }
-        .blog_section .blog_content .blog_item .blog_image { overflow: hidden; padding: 0 7px; border-radius: 12px; }
-        .blog_section .blog_content .blog_item .blog_image img { width: 100%; height: 330px; transition: transform 0.5s ease-in-out; border-radius: 12px; }
-        .blog_section .blog_content .owl-nav { display: block; }
-        .blog_section .blog_content .owl-nav .owl-prev { position: absolute; left: -27px; top: 40%; border: 5px solid #fff; text-align: center; z-index: 5; width: 40px; height: 40px; border-radius: 50%; outline: 0; background: var(--color1); transition: all 0.3s; color: #fff; }
-        .blog_section .blog_content .owl-nav .owl-prev span { font-size: 25px; margin-top: -5px; display: inline-block; }
-        .blog_section .blog_content .owl-nav .owl-next { position: absolute; right: -27px; top: 40%; border: 5px solid #fff; text-align: center; z-index: 5; width: 40px; height: 40px; border-radius: 50%; outline: 0; background: var(--color1); color: #fff; transition: all 0.3s; }
-        .blog_section .blog_content .owl-nav .owl-next span { font-size: 25px; margin-top: -5px; display: inline-block; }
-        #infraestructura h2::after { background: white; }
-        @media only screen and (max-width: 577px) { .blog_section .owl-nav .owl-prev { left: -17px !important; } .blog_section .owl-nav .owl-next { right: -17px !important; } }
-        @media (max-width: 768px) { .portada .titleContainer .title1 { font-size: 2rem; } }
+        .blog_section .blog_content .blog_item {
+            margin-bottom: 30px;
+            position: relative;
+            border-radius: 2px;
+            overflow: hidden;
+        }
+
+        .blog_section .blog_content .blog_item:hover .blog_image img {
+            transform: scale(1.1);
+            border-radius: 12px;
+        }
+
+        .blog_section .blog_content .blog_item .blog_image {
+            overflow: hidden;
+            padding: 0 7px;
+            border-radius: 12px;
+        }
+
+        .blog_section .blog_content .blog_item .blog_image img {
+            width: 100%;
+            height: 330px;
+            transition: transform 0.5s ease-in-out;
+            border-radius: 12px;
+        }
+
+        .blog_section .blog_content .owl-nav {
+            display: block;
+        }
+
+        .blog_section .blog_content .owl-nav .owl-prev {
+            position: absolute;
+            left: -27px;
+            top: 40%;
+            border: 5px solid #fff;
+            text-align: center;
+            z-index: 5;
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            outline: 0;
+            background: var(--color1);
+            transition: all 0.3s;
+            color: #fff;
+        }
+
+        .blog_section .blog_content .owl-nav .owl-prev span {
+            font-size: 25px;
+            margin-top: -5px;
+            display: inline-block;
+        }
+
+        .blog_section .blog_content .owl-nav .owl-next {
+            position: absolute;
+            right: -27px;
+            top: 40%;
+            border: 5px solid #fff;
+            text-align: center;
+            z-index: 5;
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            outline: 0;
+            background: var(--color1);
+            color: #fff;
+            transition: all 0.3s;
+        }
+
+        .blog_section .blog_content .owl-nav .owl-next span {
+            font-size: 25px;
+            margin-top: -5px;
+            display: inline-block;
+        }
+
+        #infraestructura h2::after {
+            background: white;
+        }
+
+        @media only screen and (max-width: 577px) {
+            .blog_section .owl-nav .owl-prev {
+                left: -17px !important;
+            }
+
+            .blog_section .owl-nav .owl-next {
+                right: -17px !important;
+            }
+        }
+
+        @media (max-width: 768px) {
+            .portada .titleContainer .title1 {
+                font-size: 2rem;
+            }
+        }
     </style>
 </head>
+
 <body>
     <?php include './partials/header.php'; ?>
     <?php include './partials/redes.php'; ?>
@@ -65,12 +192,13 @@
                 <div class="col-lg-6 order-2 order-lg-1">
                     <div class="welcome-content">
                         <p>
-                            En el Nivel Primaria del Colegio Santo Domingo El Líder, promovemos el desarrollo académico, social y emocional de nuestros estudiantes. Nuestra propuesta educativa está orientada a fortalecer habilidades cognitivas, valores y competencias para la vida, mediante metodologías activas, trabajo colaborativo y el acompañamiento personalizado de docentes especializados. Fomentamos la curiosidad, el pensamiento crítico y la creatividad, asegurando una formación integral y el logro de aprendizajes significativos.
+                            En el Nivel Primaria del Colegio Santo Domingo – El Líder, acompañamos a nuestros estudiantes en una etapa fundamental de su formación, fortaleciendo de manera progresiva sus aprendizajes académicos, así como su desarrollo personal y social.
                         </p>
+                        <p>Nuestra propuesta educativa está orientada al aprendizaje significativo, promoviendo el pensamiento crítico, la autonomía y la responsabilidad, en un entorno que fomenta la participación, el trabajo colaborativo y la convivencia armónica. A través de una formación integral basada en valores, sentamos bases sólidas para el liderazgo y una visión global, preparando a nuestros estudiantes para los retos de las siguientes etapas educativas.</p>
                     </div>
                 </div>
                 <!-- Columna de Imagen -->
-                <div class="col-lg-6 order-1 order-lg-2">
+                <div class="col-lg-6 order-1 order-lg-2 my-auto">
                     <div class="image-wrapper">
                         <div class="decoration-circle decoration-1"></div>
                         <div class="decoration-circle decoration-2"></div>
@@ -105,9 +233,9 @@
                             <ul class="list-unstyled mb-0">
                                 <li class="mb-3 d-flex justify-content-center">
                                     <i class="fas fa-clock text-primary me-2 mt-1"></i>
-                                    <!-- <strong>Entrada:</strong>  -->De 8:10 AM. a  01:45 PM.
+                                    <!-- <strong>Entrada:</strong>  -->De 8:10 AM. a 01:45 PM.
                                 </li>
-                               <!--  <li class="mb-3">
+                                <!--  <li class="mb-3">
                                     <i class="fas fa-door-open text-danger me-2"></i>
                                     <strong>Salida:</strong> 01:45 PM.
                                 </li> -->
@@ -292,7 +420,9 @@
         </div>
     </div>
     <script>
-        window.FontAwesomeConfig = { autoReplaceSvg: false };
+        window.FontAwesomeConfig = {
+            autoReplaceSvg: false
+        };
     </script>
     <script src="./libs/font-awesone/js/all.min.js"></script>
     <script src="./public/js/bootstrap.bundle.min.js"></script>
@@ -309,9 +439,15 @@
                 smartSpeed: 2000,
                 autoplayTimeout: 9000,
                 responsive: {
-                    0: { items: 1 },
-                    600: { items: 2 },
-                    1000: { items: 3 }
+                    0: {
+                        items: 1
+                    },
+                    600: {
+                        items: 2
+                    },
+                    1000: {
+                        items: 3
+                    }
                 }
             });
         });
@@ -331,4 +467,5 @@
         }
     </script>
 </body>
+
 </html>

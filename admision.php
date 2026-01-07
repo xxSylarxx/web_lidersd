@@ -110,16 +110,16 @@
                             </div>
                         </div>
                         <div class="admision-card-body">
-                            <h4 class="admision-title" style="color:var(--color1);">Inscripción</h4>
+                            <h4 class="admision-title text-center" style="color:var(--color1);">INSCRIPCIÓN <br> SEPARACIÓN DE VACANTE </h4>
                             <ul class="admision-list">
                                 <li><i class="fas fa-check-circle me-2" style="color:var(--color1);"></i>
-                                    <span>Completa la inscripción con los datos del padre de familia o apoderado.</span>
+                                    <span>Completa la inscripción con los datos del padre de familia o apoderado, del alumno y grado.</span>
                                 </li>
-                                <!-- <li><i class="fas fa-check-circle me-2" style="color:var(--color1);"></i>
-                                    <span>Realiza el pago de cuota de ingreso de <b>S/. 70</b>.</span>
-                                </li> -->
                                 <li><i class="fas fa-check-circle me-2" style="color:var(--color1);"></i>
-                                    <span>Se programará la entrevista con el Área de Psicopedagógico.</span>
+                                    <span>Copia del DNI del padre de familia y alumno</span>
+                                </li>
+                                <li><i class="fas fa-check-circle me-2" style="color:var(--color1);"></i>
+                                    <span>Se programará la entrevista con el departamento psicopedagógico y se le estará informando al padre de familia la fecha de la entrevista. (enero 2026)</span>
                                 </li>
                             </ul>
                         </div>
@@ -143,16 +143,24 @@
                                 <ul class="admision-sublist">
                                     <li>Tarjeta de vacuna.</li>
                                     <li>Foto de DNI del alumno y PP.FF. (ambos lados).</li>
-                                    <li>4 años – Constancia de matrícula del SIAGIE 2025.</li>
-                                    <li>4 años – Libreta de notas del último período académico cursado.</li>
+                                </ul>
+                            </div>
+                            <div class="requisitos-box mb-3">
+                                <p class="mb-1 fw-semibold" style="color:var(--color3);"><i class="fas fa-child me-1" style="color:var(--color3);"></i> Inicial 4 y 5 años</p>
+                                <ul class="admision-sublist">
+                                    <li>Foto de DNI del alumno y PP.FF. (ambos lados).</li>
+                                    <li>Constancia de matrícula del SIAGIE 2025.</li>
+                                    <li>Certificado de estudios.</li>
+                                    <li>Libreta de notas del último período académico cursado.</li>
                                     <li>Tarjeta de Control de Vacunas.</li>
                                 </ul>
                             </div>
                             <div class="requisitos-box">
-                                <p class="mb-1 fw-semibold" style="color:var(--color3);"><i class="fas fa-graduation-cap me-1" style="color:var(--color3);"></i> Inicial 5 años – Primaria – Secundaria</p>
+                                <p class="mb-1 fw-semibold" style="color:var(--color3);"><i class="fas fa-graduation-cap me-1" style="color:var(--color3);"></i>Primaria – Secundaria</p>
                                 <ul class="admision-sublist">
                                     <li>Foto de DNI del alumno y PP.FF. (ambos lados).</li>
                                     <li>Constancia de matrícula del SIAGIE 2025.</li>
+                                    <li>Certificado de estudios.</li>
                                     <li>Libreta de notas del último período académico cursado.</li>
                                 </ul>
                             </div>
@@ -173,6 +181,9 @@
                             <ul class="admision-list">
                                 <li><i class="fas fa-check-circle me-2" style="color:var(--color5);"></i>
                                     <span>En el mes de <b> Enero </b> se inicia el proceso de Matrícula 2026.</span>
+                                </li>
+                                <li><i class="fas fa-check-circle me-2" style="color:var(--color5);"></i>
+                                    <span>Se procede a realizar el pago (efectivo o cuenta bancaria).</span>
                                 </li>
                             </ul>
                             <div class="text-center mt-4">

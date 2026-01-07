@@ -131,12 +131,13 @@
 
     <section id="valores" class="py-5">
         <div class="container">
-            <div class="row pt-5">
-                <div class="col-lg-12 pb-5">
+            <div class="row pt-5 d-flex justify-content-center">
+                <div class="col-lg-10 pb-5">
                    <!--  <div class="d-flex justify-content-center">
                         <h2 class="section-title">Valores Institucionales</h2>
                     </div> -->
-                    <p style="color:var(--color5);text-align:center;">Nuestra Institución demanda de sus actores una identificación con CINCO grandes dominios valóricos:</p>
+                    <!-- <p style="color:var(--color5);text-align:center;">Nuestra Institución demanda de sus actores una identificación con CINCO grandes dominios valóricos:</p> -->
+                    <p style="color:var(--color5);text-align:center;">En el <b>Colegio Santo Domingo, El Líder,</b> promovemos una formación basada en valores que fortalecen el carácter, la convivencia y el liderazgo de nuestros estudiantes, preparándolos para actuar con responsabilidad en un entorno global.</p>
                 </div>
             </div>
             <div class="row d-flex justify-content-center">

@@ -59,8 +59,7 @@
             color: var(--color5);
             text-align: justify;
         }
-
-        @media (max-width: 768px) {
+         @media (max-width: 768px) {
             .portada .titleContainer .title1 {
                 font-size: 2rem;
             }
@@ -89,7 +88,7 @@
                 <div class="row d-flex justify-content-center">
                     <div class="col-md-10">
                         <div class="card  shadow">
-                            <div class="card-body text-justify" style="padding: 1rem 6rem 6rem 6rem;">
+                            <div class="card-body text-justify" style="padding: 1rem 5rem 5rem 5rem;">
                                 <br>
                                 <br>
                                 <div class="row d-flex justify-content-center py-4">
@@ -101,13 +100,15 @@
                                 </div>
                                 <div class="row d-flex justify-content-center">
                                     <div class="col-lg-12">
+                                        <p>La Institución Educativa Privada “Asociación Educativa Santo Domingo, El Líder” nace bajo la promotoría de la Asociación Educativa del mismo nombre, con el liderazgo del Magíster Carlos Bernardo Ruiz De La Cruz. Inicia el servicio educativo en los niveles de Inicial, Primaria y Secundaria de Educación Básica Regular en el 2026 en el distrito de Carabayllo.</p>
+                                        <p>Sus fundadores asumen el nombre "Santo Domingo, El líder" inspirados en los principios y valores del Consorcio Santo Domingo de Guzmán, así como de su patrono. De manera que nuestro proyecto refleja con claridad una alternativa disruptiva de servicio educativo que busca atender las necesidades y demandas educativas, tanto local y global, respondiendo a la visión institucional.</p>
+                                        Pondremos en práctica valores como la integridad, la responsabilidad y el compromiso con la formación de líderes del futuro.
                                         <p>
-                                            La Institución <b>Educativa Privada “Asociación Educativa Santo Domingo, El Líder”</b> nace bajo la promotoría de la Asociación Educativa del mismo nombre y el liderazgo del <b>Magíster Carlos Bernardo Ruiz De La Cruz,</b> iniciando el servicio educativo en los niveles de Inicial, Primaria y Secundaria de Educación Básica Regular en el año 2026, en el distrito de Carabayllo.
+                                            Por otro lado, en un contexto educativo competitivo, nuestra institución busca diferenciarse de otras, fomentamos un ambiente de superación y excelencia continua, motivando a todos los miembros de la comunidad educativa a dar lo mejor de sí mismos. Asimismo, afianzamos a la comunidad educativa en su compromiso con la visión y la misión institucional, asegurando calidad de los aprendizajes.</p>
+                                        <p>
+                                            De esta manera, la I.E.P. “Santo Domingo, El líder” es una institución educativa estratégica que refleja valores, identidad, reconocimiento y una misión clara; ya que busca formar ciudadanos líderes en innovación, práctica de valores y competitivos que contribuyen con el desarrollo del país.</p>
                                         </p>
-                                        <p>El nombre <b>“Santo Domingo, El Líder”</b> se inspira en los principios y valores del Consorcio Santo Domingo de Guzmán y de su patrono, reflejando una propuesta educativa que busca responder de manera innovadora a las necesidades y demandas del <b>contexto educativo local y global,</b> en coherencia con la visión institucional.</p>
-                                        <p>Nuestra institución promueve <b>valores como la integridad, la responsabilidad y el compromiso,</b> orientados a la formación de líderes del futuro. En un entorno educativo competitivo, fomentamos una cultura de superación y excelencia continua, motivando a toda la comunidad educativa a dar lo mejor de sí misma y a comprometerse con la misión y visión institucional, asegurando la calidad de los aprendizajes.</p>
-                                        <p>De esta manera, la <b>I.E.P. Santo Domingo, El Líder</b> se consolida como una institución educativa con identidad, propósito y proyección, orientada a <b>la formación de ciudadanos líderes, innovadores y comprometidos,</b> que contribuyen activamente al desarrollo del país.</p>
-                                        <p>Atentamente,  </p>
+                                        <p>Fraternalmente,  </p>
                                         <br>
                                         <p class="text-center">
                                             <b style="font-size:1.4rem;">LA DIRECCIÓN</b>
