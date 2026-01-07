@@ -156,6 +156,29 @@
             background: white;
         }
 
+        #propuesta {
+            padding-top: 4rem;
+            padding-bottom: 5rem;
+            padding-left: 4%;
+            padding-right: 4%;
+        }
+
+        #propuesta img {
+            width: 100%;
+        }
+
+        #propuesta p {
+            text-align: justify;
+        }
+
+        #propuesta .card {
+            transition: ease-in-out .9s;
+        }
+
+        #propuesta .card:hover {
+            transform: scale(1.05);
+        }
+
         @media only screen and (max-width: 577px) {
             .blog_section .owl-nav .owl-prev {
                 left: -17px !important;
@@ -299,6 +322,96 @@
                         </div>
                     </div>
                 </section>
+            </div>
+        </div>
+    </section>
+    <section id="propuesta">
+        <div class="container-fluid">
+            <div class="row pt-5">
+                <div class="col-lg-12">
+                    <div class="d-flex justify-content-center pb-4">
+                        <h2 class="section-title">Nuestra Propuesta Educativa</h2>
+                    </div>
+
+                </div>
+            </div>
+            <div class="row mx-0 d-flex justify-content-center">
+                <div class="col-md-5 pt-5">
+                    <div class="card text-white h-100">
+                        <div class="card-body d-flex">
+                            <div class="row d-flex justify-content-center">
+                                <div class="col-lg-3 my-auto d-flex justify-content-center py-3">
+                                    <img src="./public/img/icons/icon-academico.png" class="mr-3">
+                                </div>
+                                <div class="col-lg-7 my-auto">
+                                    <h4 style="color:var(--color1);font-weight:bold;">DESARROLLO ACADÉMICO</h4>
+                                    <p style="color: var(--color6);">Fortalecemos las competencias en comunicación, matemática y ciencias, promoviendo el pensamiento crítico y el aprendizaje significativo.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-5 pt-5">
+                    <div class="card text-white h-100">
+                        <div class="card-body d-flex">
+                            <div class="row d-flex justify-content-center">
+                                <div class="col-lg-3 my-auto d-flex justify-content-center py-3">
+                                    <img src="./public/img/icons/icon-acompaniamiento.png" class="mr-3">
+                                </div>
+                                <div class="col-lg-7 my-auto">
+                                    <h4 style="color:var(--color1);font-weight:bold;">ACOMPAÑAMIENTO DOCENTE</h4>
+                                    <p style="color: var(--color6);">Brindamos un acompañamiento cercano y personalizado, atendiendo las necesidades de cada estudiante y promoviendo su autonomía y responsabilidad.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-5 pt-5">
+                    <div class="card text-white" style="background-color: white;">
+                        <div class="card-body d-flex h-100">
+                            <div class="row d-flex justify-content-center">
+                                <div class="col-lg-3 my-auto d-flex justify-content-center py-3">
+                                    <img src="./public/img/icons/icon-equipo.png" class="mr-3">
+                                </div>
+                                <div class="col-lg-7 my-auto">
+                                    <h4 style="color: var(--color1);font-weight:bold;">APRENDIZAJE COLABORATIVO</h4>
+                                    <p style="color: var(--color6);">Fomentamos el trabajo en equipo y la participación activa, fortaleciendo habilidades sociales y una convivencia respetuosa.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-5 pt-5">
+                    <div class="card text-white h-100">
+                        <div class="card-body d-flex">
+                            <div class="row d-flex justify-content-center">
+                                <div class="col-lg-3 my-auto d-flex justify-content-center py-3">
+                                    <img src="./public/img/icons/icon-valores.png" class="mr-3">
+                                </div>
+                                <div class="col-lg-7 my-auto">
+                                    <h4 style="color: var(--color1);font-weight:bold;">FORMACIÓN EN VALORES</h4>
+                                    <p style="color: var(--color6);">Promovemos valores como el respeto, la responsabilidad y la solidaridad, formando estudiantes comprometidos con su entorno.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-5 pt-5">
+                    <div class="card text-white h-100">
+                        <div class="card-body d-flex">
+                            <div class="row d-flex justify-content-center">
+                                <div class="col-lg-3 my-auto d-flex justify-content-center py-3">
+                                    <img src="./public/img/icons/icon-liderazgo.png" class="mr-3">
+                                </div>
+                                <div class="col-lg-7 my-auto">
+                                    <h4 style="color: var(--color1);font-weight:bold;">BASES PARA EL LIDERAZGO</h4>
+                                    <p style="color: var(--color6);">Desarrollamos habilidades personales y sociales que fortalecen el liderazgo y una visión global desde la etapa primaria.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </section>

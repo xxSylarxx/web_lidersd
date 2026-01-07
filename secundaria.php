@@ -155,6 +155,28 @@
         #infraestructura h2::after {
             background: white;
         }
+        #propuesta {
+            padding-top: 4rem;
+            padding-bottom: 5rem;
+            padding-left: 4%;
+            padding-right: 4%;
+        }
+
+        #propuesta img {
+            width: 100%;
+        }
+
+        #propuesta p {
+            text-align: justify;
+        }
+
+        #propuesta .card {
+            transition: ease-in-out .9s;
+        }
+
+        #propuesta .card:hover {
+            transform: scale(1.05);
+        }
 
         @media only screen and (max-width: 577px) {
             .blog_section .owl-nav .owl-prev {
@@ -300,6 +322,97 @@
                         </div>
                     </div>
                 </section>
+            </div>
+        </div>
+    </section>
+    <section id="propuesta">
+        <div class="container-fluid">
+            <div class="row pt-5">
+                <div class="col-lg-12">
+                    <div class="d-flex justify-content-center pb-4">
+                        <h2 class="section-title">Nuestra Propuesta Educativa</h2>
+                    </div>
+
+                </div>
+            </div>
+            <div class="row mx-0 d-flex justify-content-center">
+                <div class="col-md-5 pt-5">
+                    <div class="card text-white h-100">
+                        <div class="card-body d-flex">
+                            <div class="row d-flex justify-content-center">
+                                <div class="col-lg-3 my-auto d-flex justify-content-center py-3">
+                                    <img src="./public/img/icons/icon-academico.png" class="mr-3">
+                                </div>
+                                <div class="col-lg-7 my-auto">
+                                    <h4 style="color:var(--color1);font-weight:bold;">FORMACIÓN ACADÉMICA SÓLIDA</h4>
+                                    <p style="color: var(--color6);">FFortalecemos las competencias en las distintas áreas del conocimiento, promoviendo el pensamiento crítico, la investigación y el aprendizaje significativo, como base para una formación académica sólida.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-5 pt-5">
+                    <div class="card text-white h-100">
+                        <div class="card-body d-flex">
+                            <div class="row d-flex justify-content-center">
+                                <div class="col-lg-3 my-auto d-flex justify-content-center py-3">
+                                    <img src="./public/img/icons/icon-tecnologia.png" class="mr-3">
+                                </div>
+                                <div class="col-lg-7 my-auto">
+                                    <h4 style="color:var(--color1);font-weight:bold;">METODOLOGÍAS INNOVADORAS Y TECNOLOGÍA</h4>
+                                    <p style="color: var(--color6);">Integramos metodologías activas y el uso responsable de la tecnología como herramientas para el aprendizaje, favoreciendo la creatividad, el análisis y la resolución de problemas.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-md-5 pt-5">
+                    <div class="card text-white h-100">
+                        <div class="card-body d-flex">
+                            <div class="row d-flex justify-content-center">
+                                <div class="col-lg-3 my-auto d-flex justify-content-center py-3">
+                                    <img src="./public/img/icons/icon-acompaniamiento.png" class="mr-3">
+                                </div>
+                                <div class="col-lg-7 my-auto">
+                                    <h4 style="color: var(--color1);font-weight:bold;">ACOMPAÑAMIENTO Y ORIENTACIÓN</h4>
+                                    <p style="color: var(--color6);">Brindamos acompañamiento académico y orientación personal, apoyando a los estudiantes en la toma de decisiones y en la construcción de su proyecto de vida.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-5 pt-5">
+                    <div class="card text-white h-100">
+                        <div class="card-body d-flex">
+                            <div class="row d-flex justify-content-center">
+                                <div class="col-lg-3 my-auto d-flex justify-content-center py-3">
+                                    <img src="./public/img/icons/icon-valores.png" class="mr-3">
+                                </div>
+                                <div class="col-lg-7 my-auto">
+                                    <h4 style="color: var(--color1);font-weight:bold;">FORMACIÓN EN VALORES Y RESPONSABILIDAD SOCIAL</h4>
+                                    <p style="color: var(--color6);">Promovemos valores como el respeto, la honestidad, la responsabilidad y el compromiso social, formando jóvenes conscientes de su rol en la sociedad.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-5 pt-5">
+                    <div class="card text-white" style="background-color: white;">
+                        <div class="card-body d-flex h-100">
+                            <div class="row d-flex justify-content-center">
+                                <div class="col-lg-3 my-auto d-flex justify-content-center py-3">
+                                    <img src="./public/img/icons/icon-superior.png" class="mr-3">
+                                </div>
+                                <div class="col-lg-7 my-auto">
+                                    <h4 style="color: var(--color1);font-weight:bold;">PREPARACIÓN PARA EL FUTURO</h4>
+                                    <p style="color: var(--color6);">Preparamos a nuestros estudiantes para afrontar con éxito la educación superior y los desafíos del mundo actual, fortaleciendo su liderazgo y una visión global.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </section>

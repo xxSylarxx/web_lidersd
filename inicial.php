@@ -164,6 +164,30 @@
             background: white;
         }
 
+        #propuesta {
+            padding-top: 4rem;
+            padding-bottom: 5rem;
+            padding-left: 4%;
+            padding-right: 4%;
+        }
+
+        #propuesta img {
+            width: 100%;
+        }
+
+        #propuesta p {
+            text-align: justify;
+        }
+
+        #propuesta .card {
+            transition: ease-in-out .9s;
+        }
+
+        #propuesta .card:hover {
+            transform: scale(1.05);
+        }
+
+
         @media only screen and (max-width: 577px) {
             .blog_section .owl-nav .owl-prev {
                 left: -17px !important;
@@ -173,7 +197,7 @@
                 right: -17px !important;
             }
         }
-        
+
         @media (max-width: 768px) {
             .portada .titleContainer .title1 {
                 font-size: 2rem;
@@ -220,7 +244,7 @@
             </div>
         </div>
     </section>
-    
+
     <!-- SECCIÓN HORARIO DE CLASES -->
     <section id="horario" class="py-5" style="background-color: #f8f9fa;">
         <div class="container">
@@ -247,7 +271,7 @@
                                     <i class="fas fa-clock text-primary me-2 mt-1"></i>
                                     <!-- <strong>Entrada:</strong>  -->De 7:40 AM. a 02:20 PM.
                                 </li>
-                               <!--  <li class="mb-3">
+                                <!--  <li class="mb-3">
                                     <i class="fas fa-door-open text-danger me-2"></i>
                                     <strong>Salida:</strong> 01:45 PM.
                                 </li> -->
@@ -258,7 +282,7 @@
             </div>
         </div>
     </section>
-    
+
     <section id="infraestructura">
         <!-- SECCIÓN DEL CARRUSEL -->
         <div class="container-fluid" style="background-color: #327DD7;">
@@ -299,7 +323,7 @@
                                     <img class="img-fluid border" src="./public/img/web/grass.jpg" onclick="showFoto(4);">
                                 </div>
                             </div>
-                           <!--  <div class="blog_item">
+                            <!--  <div class="blog_item">
                                 <div class="blog_image">
                                     <img class="img-fluid border" src="./public/img/web/labingles.jpg" onclick="showFoto(5);">
                                 </div>
@@ -312,6 +336,96 @@
                         </div>
                     </div>
                 </section>
+            </div>
+        </div>
+    </section>
+    <section id="propuesta">
+        <div class="container-fluid">
+            <div class="row pt-5">
+                <div class="col-lg-12">
+                    <div class="d-flex justify-content-center pb-4">
+                        <h2 class="section-title">Nuestra Propuesta Educativa</h2>
+                    </div>
+
+                </div>
+            </div>
+            <div class="row mx-0 d-flex justify-content-center">
+                <div class="col-md-5 pt-5">
+                    <div class="card text-white h-100">
+                        <div class="card-body d-flex">
+                            <div class="row d-flex justify-content-center">
+                                <div class="col-lg-3 my-auto d-flex justify-content-center py-3">
+                                    <img src="./public/img/icons/icon-desarrollo.png" class="mr-3">
+                                </div>
+                                <div class="col-lg-7 my-auto">
+                                    <h4 style="color:var(--color1);font-weight:bold;">DESARROLLO INTEGRAL</h4>
+                                    <p style="color: var(--color6);">Promovemos el desarrollo emocional, social, cognitivo y motor de nuestros estudiantes, respetando su ritmo de aprendizaje y fortaleciendo su autoestima y autonomía desde los primeros años.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-5 pt-5">
+                    <div class="card text-white h-100">
+                        <div class="card-body d-flex">
+                            <div class="row d-flex justify-content-center">
+                                <div class="col-lg-3 my-auto d-flex justify-content-center py-3">
+                                    <img src="./public/img/icons/icon-juego.png" class="mr-3">
+                                </div>
+                                <div class="col-lg-7 my-auto">
+                                    <h4 style="color:var(--color1);font-weight:bold;">APRENDIZAJE A TRAVÉS DEL JUEGO</h4>
+                                    <p style="color: var(--color6);">El juego es la base de nuestro aprendizaje. A través de experiencias lúdicas, exploración y actividades creativas, los niños descubren, experimentan y aprenden de manera significativa y natural.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-5 pt-5">
+                    <div class="card text-white" style="background-color: white;">
+                        <div class="card-body d-flex h-100">
+                            <div class="row d-flex justify-content-center">
+                                <div class="col-lg-3 my-auto d-flex justify-content-center py-3">
+                                    <img src="./public/img/icons/icon-valores.png" class="mr-3">
+                                </div>
+                                <div class="col-lg-7 my-auto">
+                                    <h4 style="color: var(--color1);font-weight:bold;">FORMACIÓN EN VALORES</h4>
+                                    <p style="color: var(--color6);">Fomentamos valores como el respeto, la solidaridad, la responsabilidad y la convivencia, sentando bases sólidas para la formación personal y social de nuestros estudiantes.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-5 pt-5">
+                    <div class="card text-white h-100">
+                        <div class="card-body d-flex">
+                            <div class="row d-flex justify-content-center">
+                                <div class="col-lg-3 my-auto d-flex justify-content-center py-3">
+                                    <img src="./public/img/icons/icon-estimulante.png" class="mr-3">
+                                </div>
+                                <div class="col-lg-7 my-auto">
+                                    <h4 style="color: var(--color1);font-weight:bold;">ENTORNO SEGURO Y ESTIMULANTE</h4>
+                                    <p style="color: var(--color6);">Brindamos espacios adecuados, seguros y diseñados especialmente para el Nivel Inicial, donde los niños aprenden y juegan en un ambiente de confianza y bienestar.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-5 pt-5">
+                    <div class="card text-white h-100">
+                        <div class="card-body d-flex">
+                            <div class="row d-flex justify-content-center">
+                                <div class="col-lg-3 my-auto d-flex justify-content-center py-3">
+                                    <img src="./public/img/icons/icon-docentes.png" class="mr-3">
+                                </div>
+                                <div class="col-lg-7 my-auto">
+                                    <h4 style="color: var(--color1);font-weight:bold;">DOCENTES ESPECIALIZADAS</h4>
+                                    <p style="color: var(--color6);">Contamos con docentes especializadas en educación inicial, capacitadas para acompañar de manera cercana y afectiva el proceso de aprendizaje y desarrollo de cada estudiante.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
