@@ -192,6 +192,12 @@
             .portada .titleContainer .title1 {
                 font-size: 2rem;
             }
+            #propuesta img {
+                width: 40%;
+            }
+            #propuesta h4 {
+                text-align: center;
+            }
         }
     </style>
 </head>

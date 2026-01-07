@@ -55,6 +55,10 @@
             object-position: center 25%;
         }
 
+        .card-body {
+            padding: 1rem 6rem 6rem 6rem;
+        }
+
         #historia-colegio p {
             color: var(--color5);
             text-align: justify;
@@ -64,6 +68,9 @@
             .portada .titleContainer .title1 {
                 font-size: 2rem;
             }
+            .card-body {
+            padding: 1rem 1.5rem 1.5rem 1.5rem;
+        }
         }
     </style>
 </head>
@@ -89,7 +96,7 @@
                 <div class="row d-flex justify-content-center">
                     <div class="col-md-10">
                         <div class="card  shadow">
-                            <div class="card-body text-justify" style="padding: 1rem 6rem 6rem 6rem;">
+                            <div class="card-body text-justify">
                                 <br>
                                 <br>
                                 <div class="row d-flex justify-content-center py-4">
