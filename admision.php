@@ -197,7 +197,7 @@
         <div class="container pb-5">
             <div class="row justify-content-center">
                 <div class="col-lg-6 text-center">
-                    <a href="#" class="btn btn-lg btn-primary btn-inscribete mt-4" style="background:var(--color1);border:none;font-weight:600;font-size:1.2rem;padding:0.9rem 2.5rem;border-radius:2rem;box-shadow:0 4px 18px rgba(50,125,215,0.10);transition:background 0.2s;">Inscríbete Aquí</a>
+                    <a href="https://wa.me/+51951352404" class="btn btn-lg btn-primary btn-inscribete mt-4" style="background:var(--color1);border:none;font-weight:600;font-size:1.2rem;padding:0.9rem 2.5rem;border-radius:2rem;box-shadow:0 4px 18px rgba(50,125,215,0.10);transition:background 0.2s;" target="_blank">Inscríbete Aquí</a>
                 </div>
             </div>
         </div>
