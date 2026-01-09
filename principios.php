@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Colegio Santo Domingo El Líder — Nivel Secundaria</title>
+    <title>Colegio Santo Domingo El Líder — Nivel Inicial</title>
     <link rel="icon" href="./public/img/icons/escudo.png">
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -61,17 +61,25 @@
         /* Card de imagen */
         .welcome-image2-card {
             position: relative;
+            /*  border-radius: 20px; */
+            /* overflow: hidden; */
+
             z-index: 1;
             transition: all 0.4s ease;
         }
 
+        /* .welcome-image2-card:hover {
+  transform: translateY(-10px);
+} */
+
         .welcome-image2 {
-            width: 90%;
+            width: 98%;
             height: auto;
             display: block;
             object-fit: cover;
             border-radius: 15px;
             transition: transform 0.4s ease;
+            /*  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.15); */
         }
 
         .welcome-image2-card:hover .welcome-image2 {
@@ -155,6 +163,7 @@
         #infraestructura h2::after {
             background: white;
         }
+
         #propuesta {
             padding-top: 4rem;
             padding-bottom: 5rem;
@@ -178,6 +187,7 @@
             transform: scale(1.05);
         }
 
+
         @media only screen and (max-width: 577px) {
             .blog_section .owl-nav .owl-prev {
                 left: -17px !important;
@@ -192,12 +202,6 @@
             .portada .titleContainer .title1 {
                 font-size: 2rem;
             }
-            #propuesta img {
-                width: 40%;
-            }
-            #propuesta h4 {
-                text-align: center;
-            }
         }
     </style>
 </head>
@@ -208,47 +212,44 @@
     <section class="container-fluid portada px-0">
         <div class="titleContainer">
             <div class="animate__animated animate__fadeInLeft">
-                <h2 class="title1">Nivel Secundaria</h2>
+                <h2 class="title1">
+                    Propuesta Educativa
+                </h2>
             </div>
         </div>
         <img src="./public/img/portadas/portada_interna.png" alt="">
     </section>
-    <section class="bienvenidos-section py-5">
+    <!--   <section class="bienvenidos-section py-5">
         <div class="container py-4">
             <div class="row g-5 align-items-center">
-                <!-- Columna de Contenido -->
                 <div class="col-lg-6 order-2 order-lg-1">
                     <div class="welcome-content">
-                        <p>
-                            En el Nivel Secundaria del Colegio <b>Santo Domingo, El Líder</b> acompañamos a nuestros estudiantes en el desarrollo de competencias académicas, personales y sociales, que les permitan afrontar con responsabilidad y criterio los retos del mundo actual.
+                        <p>En el Nivel Inicial del Colegio Santo Domingo – El Líder, acompañamos a nuestros estudiantes en sus primeros años de formación, brindándoles un entorno seguro, afectivo y estimulante, donde cada niño y niña se siente valorado, respetado y motivado a aprender.
                         </p>
-                        <p>Nuestra propuesta educativa promueve el pensamiento crítico, la autonomía, el trabajo colaborativo y la responsabilidad social, integrando metodologías innovadoras y el uso adecuado de la tecnología como herramientas para el aprendizaje.</p>
-                        <p>Buscamos formar jóvenes íntegros, creativos y comprometidos con su entorno, preparados para continuar con éxito su formación superior y contribuir positivamente al desarrollo de la sociedad, con liderazgo y visión global.</p>
+                        <p>Nuestra propuesta educativa está orientada al desarrollo integral, fortaleciendo las dimensiones emocional, social, cognitiva y motora, a través de experiencias significativas que parten del juego, la exploración y el descubrimiento.</p>
+                        <p>Contamos con docentes especializadas, capacitadas para acompañar cada etapa del desarrollo infantil, promoviendo la autonomía, la creatividad, la curiosidad y el pensamiento crítico desde edades tempranas.</p>
                     </div>
                 </div>
-                <!-- Columna de Imagen -->
-                <div class="col-lg-6 order-1 order-lg-2 my-auto">
+                <div class="col-lg-6 order-1 order-lg-2">
                     <div class="image-wrapper">
                         <div class="decoration-circle decoration-1"></div>
                         <div class="decoration-circle decoration-2"></div>
                         <div class="welcome-image2-card d-flex justify-content-center align-items-center">
-                            <img src="./public/img/web/portada_secundaria.jpg" alt="Colegio Santo Domingo El Líder" class="welcome-image2">
+                            <img src="./public/img/web/portada_inicial.jpg" alt="Colegio Santo Domingo El Líder" class="welcome-image2">
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </section>
-    <section id="horario" class="py-5" style="background-color: #f8f9fa;">
+    </section> -->
+
+    <!-- <section id="horario" class="py-5" style="background-color: #f8f9fa;">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 pb-4">
                     <div class="d-flex justify-content-center">
                         <h2 class="section-title">Horario de Clases</h2>
                     </div>
-                    <!-- <p style="color:var(--color5);text-align:center;padding-top:.5rem;">
-                        Nuestros horarios están diseñados para garantizar un equilibrio entre aprendizaje, juego y descanso.
-                    </p> -->
                 </div>
             </div>
             <div class="row justify-content-center g-4">
@@ -262,21 +263,17 @@
                             <ul class="list-unstyled mb-0">
                                 <li class="mb-3 d-flex justify-content-center">
                                     <i class="fas fa-clock text-primary me-2 mt-1"></i>
-                                    <!-- <strong>Entrada:</strong>  -->De 7:40 AM. a 02:20 PM.
+                                    De 7:40 AM. a 02:20 PM.
                                 </li>
-                                <!--  <li class="mb-3">
-                                    <i class="fas fa-door-open text-danger me-2"></i>
-                                    <strong>Salida:</strong> 01:45 PM.
-                                </li> -->
                             </ul>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </section>
-    <section id="infraestructura">
-        <!-- SECCIÓN DEL CARRUSEL -->
+    </section> -->
+
+    <!-- <section id="infraestructura">
         <div class="container-fluid" style="background-color: #327DD7;">
             <br>
             <div class="container">
@@ -292,12 +289,12 @@
                         <div class="owl-carousel owl-theme">
                             <div class="blog_item">
                                 <div class="blog_image">
-                                    <img class="img-fluid border" src="./public/img/web/infra_secundaria1.jpg" onclick="showFoto(0);">
+                                    <img class="img-fluid border" src="./public/img/web/infra_inicial1.jpg" onclick="showFoto(0);">
                                 </div>
                             </div>
                             <div class="blog_item">
                                 <div class="blog_image">
-                                    <img class="img-fluid border" src="./public/img/web/infra_primaria2.jpg" onclick="showFoto(1);">
+                                    <img class="img-fluid border" src="./public/img/web/infra_inicial2.jpg" onclick="showFoto(1);">
                                 </div>
                             </div>
                             <div class="blog_item">
@@ -315,23 +312,13 @@
                                     <img class="img-fluid border" src="./public/img/web/grass.jpg" onclick="showFoto(4);">
                                 </div>
                             </div>
-                            <div class="blog_item">
-                                <div class="blog_image">
-                                    <img class="img-fluid border" src="./public/img/web/labingles.jpg" onclick="showFoto(5);">
-                                </div>
-                            </div>
-                            <div class="blog_item">
-                                <div class="blog_image">
-                                    <img class="img-fluid border" src="./public/img/web/labcomputo.jpg" onclick="showFoto(6);">
-                                </div>
-                            </div>
                         </div>
                     </div>
                 </section>
             </div>
         </div>
-    </section>
-    <section id="propuesta">
+    </section> -->
+    <!--  <section id="propuesta">
         <div class="container-fluid">
             <div class="row pt-5">
                 <div class="col-lg-12">
@@ -347,11 +334,11 @@
                         <div class="card-body d-flex">
                             <div class="row d-flex justify-content-center">
                                 <div class="col-lg-3 my-auto d-flex justify-content-center py-3">
-                                    <img src="./public/img/icons/icon-academico.png" class="mr-3">
+                                    <img src="./public/img/icons/icon-desarrollo.png" class="mr-3">
                                 </div>
                                 <div class="col-lg-7 my-auto">
-                                    <h4 style="color:var(--color1);font-weight:bold;">FORMACIÓN ACADÉMICA SÓLIDA</h4>
-                                    <p style="color: var(--color6);">FFortalecemos las competencias en las distintas áreas del conocimiento, promoviendo el pensamiento crítico, la investigación y el aprendizaje significativo, como base para una formación académica sólida.
+                                    <h4 style="color:var(--color1);font-weight:bold;">DESARROLLO INTEGRAL</h4>
+                                    <p style="color: var(--color6);">Promovemos el desarrollo emocional, social, cognitivo y motor de nuestros estudiantes, respetando su ritmo de aprendizaje y fortaleciendo su autoestima y autonomía desde los primeros años.
                                     </p>
                                 </div>
                             </div>
@@ -363,42 +350,11 @@
                         <div class="card-body d-flex">
                             <div class="row d-flex justify-content-center">
                                 <div class="col-lg-3 my-auto d-flex justify-content-center py-3">
-                                    <img src="./public/img/icons/icon-tecnologia.png" class="mr-3">
+                                    <img src="./public/img/icons/icon-juego.png" class="mr-3">
                                 </div>
                                 <div class="col-lg-7 my-auto">
-                                    <h4 style="color:var(--color1);font-weight:bold;">METODOLOGÍAS INNOVADORAS Y TECNOLOGÍA</h4>
-                                    <p style="color: var(--color6);">Integramos metodologías activas y el uso responsable de la tecnología como herramientas para el aprendizaje, favoreciendo la creatividad, el análisis y la resolución de problemas.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="col-md-5 pt-5">
-                    <div class="card text-white h-100">
-                        <div class="card-body d-flex">
-                            <div class="row d-flex justify-content-center">
-                                <div class="col-lg-3 my-auto d-flex justify-content-center py-3">
-                                    <img src="./public/img/icons/icon-acompaniamiento.png" class="mr-3">
-                                </div>
-                                <div class="col-lg-7 my-auto">
-                                    <h4 style="color: var(--color1);font-weight:bold;">ACOMPAÑAMIENTO Y ORIENTACIÓN</h4>
-                                    <p style="color: var(--color6);">Brindamos acompañamiento académico y orientación personal, apoyando a los estudiantes en la toma de decisiones y en la construcción de su proyecto de vida.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-5 pt-5">
-                    <div class="card text-white h-100">
-                        <div class="card-body d-flex">
-                            <div class="row d-flex justify-content-center">
-                                <div class="col-lg-3 my-auto d-flex justify-content-center py-3">
-                                    <img src="./public/img/icons/icon-valores.png" class="mr-3">
-                                </div>
-                                <div class="col-lg-7 my-auto">
-                                    <h4 style="color: var(--color1);font-weight:bold;">FORMACIÓN EN VALORES Y RESPONSABILIDAD SOCIAL</h4>
-                                    <p style="color: var(--color6);">Promovemos valores como el respeto, la honestidad, la responsabilidad y el compromiso social, formando jóvenes conscientes de su rol en la sociedad.</p>
+                                    <h4 style="color:var(--color1);font-weight:bold;">APRENDIZAJE A TRAVÉS DEL JUEGO</h4>
+                                    <p style="color: var(--color6);">El juego es la base de nuestro aprendizaje. A través de experiencias lúdicas, exploración y actividades creativas, los niños descubren, experimentan y aprenden de manera significativa y natural.</p>
                                 </div>
                             </div>
                         </div>
@@ -409,11 +365,41 @@
                         <div class="card-body d-flex h-100">
                             <div class="row d-flex justify-content-center">
                                 <div class="col-lg-3 my-auto d-flex justify-content-center py-3">
-                                    <img src="./public/img/icons/icon-superior.png" class="mr-3">
+                                    <img src="./public/img/icons/icon-valores.png" class="mr-3">
                                 </div>
                                 <div class="col-lg-7 my-auto">
-                                    <h4 style="color: var(--color1);font-weight:bold;">PREPARACIÓN PARA EL FUTURO</h4>
-                                    <p style="color: var(--color6);">Preparamos a nuestros estudiantes para afrontar con éxito la educación superior y los desafíos del mundo actual, fortaleciendo su liderazgo y una visión global.</p>
+                                    <h4 style="color: var(--color1);font-weight:bold;">FORMACIÓN EN VALORES</h4>
+                                    <p style="color: var(--color6);">Fomentamos valores como el respeto, la solidaridad, la responsabilidad y la convivencia, sentando bases sólidas para la formación personal y social de nuestros estudiantes.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-5 pt-5">
+                    <div class="card text-white h-100">
+                        <div class="card-body d-flex">
+                            <div class="row d-flex justify-content-center">
+                                <div class="col-lg-3 my-auto d-flex justify-content-center py-3">
+                                    <img src="./public/img/icons/icon-estimulante.png" class="mr-3">
+                                </div>
+                                <div class="col-lg-7 my-auto">
+                                    <h4 style="color: var(--color1);font-weight:bold;">ENTORNO SEGURO Y ESTIMULANTE</h4>
+                                    <p style="color: var(--color6);">Brindamos espacios adecuados, seguros y diseñados especialmente para el Nivel Inicial, donde los niños aprenden y juegan en un ambiente de confianza y bienestar.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-5 pt-5">
+                    <div class="card text-white h-100">
+                        <div class="card-body d-flex">
+                            <div class="row d-flex justify-content-center">
+                                <div class="col-lg-3 my-auto d-flex justify-content-center py-3">
+                                    <img src="./public/img/icons/icon-docentes.png" class="mr-3">
+                                </div>
+                                <div class="col-lg-7 my-auto">
+                                    <h4 style="color: var(--color1);font-weight:bold;">DOCENTES ESPECIALIZADAS</h4>
+                                    <p style="color: var(--color6);">Contamos con docentes especializadas en educación inicial, capacitadas para acompañar de manera cercana y afectiva el proceso de aprendizaje y desarrollo de cada estudiante.</p>
                                 </div>
                             </div>
                         </div>
@@ -421,8 +407,8 @@
                 </div>
             </div>
         </div>
-    </section>
-    <!-- <section id="principios">
+    </section> -->
+    <section id="principios">
         <div class="container-fluid pt-4">
             <div class="container">
                 <div class="row pt-5">
@@ -527,13 +513,13 @@
                 </div>
             </div>
         </div>
-    </section> -->
+    </section>
     <?php include './partials/footer.php'; ?>
     <!-- Modal para mostrar la foto ampliada -->
     <div class="modal fade" id="modalFoto" tabindex="-1" aria-labelledby="modalFotoLabel" aria-hidden="true">
         <div class="modal-dialog modal-lg">
             <div class="modal-content" style="padding:0px;">
-                <div class="modal-body">
+                <div class="modal-body d-flex justify-content-center">
                     <img class="img-fluid rounded" src="" id="fotoview">
                 </div>
             </div>
@@ -574,13 +560,11 @@
         // Función para mostrar la foto en el modal
         function showFoto(item) {
             let list = [
-                './public/img/web/infra_secundaria1.jpg',
-                './public/img/web/infra_primaria2.jpg',
+                './public/img/web/infra_inicial1.jpg',
+                './public/img/web/infra_inicial2.jpg',
                 './public/img/web/infra_inicial3.jpg',
                 './public/img/galeria/fachada.jpeg',
-                './public/img/web/grass.jpg',
-                './public/img/web/labingles.jpg',
-                './public/img/web/labcomputo.jpg'
+                './public/img/web/grass.jpg'
             ];
             $('#fotoview').attr('src', list[item]);
             $('#modalFoto').modal('show');

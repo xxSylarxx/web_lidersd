@@ -232,7 +232,7 @@
                 <!-- Columna de Contenido -->
                 <div class="col-lg-6 order-2 order-lg-1">
                     <div class="welcome-content">
-                        <p>En el Nivel Inicial del Colegio Santo Domingo – El Líder, acompañamos a nuestros estudiantes en sus primeros años de formación, brindándoles un entorno seguro, afectivo y estimulante, donde cada niño y niña se siente valorado, respetado y motivado a aprender.
+                        <p>En el Nivel Inicial del Colegio <b>Santo Domingo, El Líder</b> acompañamos a nuestros estudiantes en sus primeros años de formación, brindándoles un entorno seguro, afectivo y estimulante, donde cada niño y niña se siente valorado, respetado y motivado a aprender.
                         </p>
                         <p>Nuestra propuesta educativa está orientada al desarrollo integral, fortaleciendo las dimensiones emocional, social, cognitiva y motora, a través de experiencias significativas que parten del juego, la exploración y el descubrimiento.</p>
                         <p>Contamos con docentes especializadas, capacitadas para acompañar cada etapa del desarrollo infantil, promoviendo la autonomía, la creatividad, la curiosidad y el pensamiento crítico desde edades tempranas.</p>
@@ -436,7 +436,7 @@
             </div>
         </div>
     </section>
-    <section id="principios">
+    <!-- <section id="principios">
         <div class="container-fluid pt-4">
             <div class="container">
                 <div class="row pt-5">
@@ -541,7 +541,7 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
     <?php include './partials/footer.php'; ?>
     <!-- Modal para mostrar la foto ampliada -->
     <div class="modal fade" id="modalFoto" tabindex="-1" aria-labelledby="modalFotoLabel" aria-hidden="true">

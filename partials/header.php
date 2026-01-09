@@ -168,6 +168,7 @@
                         <ul class="dropdown-menu">
                             <li><a class="dropdown-item" href="./metodologia.php">Metodología</a></li>
                             <li><a class="dropdown-item" href="./valores.php">Valores</a></li>
+                            <li><a class="dropdown-item" href="./principios.php">Principios Institucionales</a></li>
                         </ul>
                     </li>
 

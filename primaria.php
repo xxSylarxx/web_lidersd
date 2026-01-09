@@ -221,7 +221,7 @@
                 <div class="col-lg-6 order-2 order-lg-1">
                     <div class="welcome-content">
                         <p>
-                            En el Nivel Primaria del Colegio Santo Domingo – El Líder, acompañamos a nuestros estudiantes en una etapa fundamental de su formación, fortaleciendo de manera progresiva sus aprendizajes académicos, así como su desarrollo personal y social.
+                            En el Nivel Primaria del Colegio <b>Santo Domingo, El Líder</b> acompañamos a nuestros estudiantes en una etapa fundamental de su formación, fortaleciendo de manera progresiva sus aprendizajes académicos, así como su desarrollo personal y social.
                         </p>
                         <p>Nuestra propuesta educativa está orientada al aprendizaje significativo, promoviendo el pensamiento crítico, la autonomía y la responsabilidad, en un entorno que fomenta la participación, el trabajo colaborativo y la convivencia armónica. A través de una formación integral basada en valores, sentamos bases sólidas para el liderazgo y una visión global, preparando a nuestros estudiantes para los retos de las siguientes etapas educativas.</p>
                     </div>
@@ -421,7 +421,7 @@
             </div>
         </div>
     </section>
-    <section id="principios">
+    <!-- <section id="principios">
         <div class="container-fluid pt-4">
             <div class="container">
                 <div class="row pt-5">
@@ -526,7 +526,7 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
     <?php include './partials/footer.php'; ?>
     <!-- Modal para mostrar la foto ampliada -->
     <div class="modal fade" id="modalFoto" tabindex="-1" aria-labelledby="modalFotoLabel" aria-hidden="true">
