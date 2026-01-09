@@ -355,7 +355,7 @@
                         </div>
 
                         <!-- Botón de acción -->
-                        <a href="/bienvenidos" class="cta cta-welcome">
+                        <a href="./historia.php" class="cta cta-welcome">
                             <span>Conoce Más Sobre Nosotros</span>
                             <i class="fa fa-arrow-circle-right" aria-hidden="true"></i>
                         </a>
